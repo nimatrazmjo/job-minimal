@@ -1,0 +1,18 @@
+input.ng-dirty.ng-invalid {
+  color:#a94442
+}
+
+input.ng-dirty.ng-invalid.ng-touched:not(form) {
+  color: #a94442
+}
+
+.has-error {
+  color: #a94442;
+}
+.panel .panel-heading {
+  border-radius: 0px;
+}
+
+.m-l-10 {
+  margin-left: 10px !important;
+}

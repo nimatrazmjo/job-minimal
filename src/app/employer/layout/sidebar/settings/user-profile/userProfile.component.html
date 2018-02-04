@@ -1,0 +1,67 @@
+<div class="row">
+    <h3>Profile settings</h3>
+    <hr>
+    <div>
+        <h5 class="font-bold m-t-30">First Name</h5>
+        <p class="m-t-10"> {{_employerDataProvider?.storage?.authUser?.firstName}} </p>
+    </div>
+
+    <div>
+        <h5 class="font-bold m-t-30">Last Name</h5>
+        <p class="m-t-10"> {{_employerDataProvider?.storage?.authUser?.lastName}} </p>
+    </div>
+
+    <a href="javascript:void(0)" (click)="displayModal(editUserModal, _employerDataProvider?.storage?.authUser._id)" class="btn btn-primary pull-right">
+        <span>   Edit  </span>
+    </a>
+</div>
+
+
+<div bsModal #editUserModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="editUserModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" (click)="closeModal(editUserModal)" aria-label="Close"><span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title" id="editExampleModalLabel1">Edit User</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" #userEditForm="ngForm" novalidate>
+                    <div class="form-group">
+                        <label class="col-md-12" [class.has-error]="validationErrors['firstName']">First Name</label>
+
+                        <div class="col-md-12">
+              <input type="text" id="firstName" *ngIf="_employerDataProvider.storage.authUser" name="firstName" [(ngModel)]="firstName" #firstNameRequired="ngModel"
+                        placeholder="Type first name here..." class="form-control" [style.border-color]="validationErrors['firstName'] ? '#a94442': ''">
+
+                            <small class="has-error" *ngIf="validationErrors['firstName']"> {{ validationErrors["firstName"].split('"').join('') }}</small>
+
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-12" [class.has-error]="validationErrors['lastName']">Last Name</label>
+
+                        <div class="col-md-12">
+                            <input type="text" id="lastName" *ngIf="_employerDataProvider.storage.authUser" name="lastName" [(ngModel)]="lastName" #lastNameRequired="ngModel"
+                                   placeholder="Type last name here..." class="form-control" [style.border-color]="validationErrors['lastName'] ? '#a94442': ''">
+
+                            <small class="has-error" *ngIf="validationErrors['lastName']"> {{ validationErrors["lastName"].split('"').join('') }}</small>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+            <div class="modal-footer" *ngIf="!formLoading">
+                <button type="button" class="btn btn-default" (click)="closeModal(editUserModal)">Close</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal"
+                        (click)="onUpdate(userEditForm, editUserModal)">Update
+                </button>
+            </div>
+
+            <div class="modal-footer"  *ngIf="formLoading">
+                <i *ngIf="formLoading" class="fa fa-spinner fa-spin"></i>
+            </div>
+        </div>
+    </div>
+</div>

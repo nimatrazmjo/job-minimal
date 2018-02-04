@@ -1,0 +1,20 @@
+<div class="wrapper">
+    <!-- top navbar-->
+    <app-header class="topnavbar-wrapper"></app-header>
+    <!-- sidebar-->
+    <app-sidebar *ngIf="_employerDataProvider.storage.company.owner" class="aside"></app-sidebar>
+    <!-- offsidebar-->
+    <!-- Main section-->
+    <div id="page-wrapper">
+        <breadcrumb></breadcrumb>
+        <router-outlet *ngIf="(_employerDataProvider.storage.company | json) != '{}'"></router-outlet>
+        <!--<router-outlet *ngIf="_employerDataProvider.storage.companyNotVerifiedMsg === '' && _employerDataProvider.storage.company.status === 1 && exceptionalRoutes.indexOf(currentRoute) > -1"></router-outlet>-->
+        <!--<div class="alert alert-info" style="margin: 50px;" *ngIf="_employerDataProvider.storage.companyNotVerifiedMsg != '' && _employerDataProvider.storage.company.status !== 1 && exceptionalRoutes.indexOf(currentRoute) === -1">-->
+          <!--{{ _employerDataProvider.storage.companyNotVerifiedMsg }}-->
+        <!--</div>-->
+    </div>
+    <right-sidebar></right-sidebar>
+    <!-- Page footer-->
+    <live-chat></live-chat>
+    <footer app-footer></footer>
+</div>

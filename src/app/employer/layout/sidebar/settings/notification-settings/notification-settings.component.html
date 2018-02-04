@@ -1,0 +1,55 @@
+<div>
+  <h3>Notification Settings</h3>
+  <hr>
+  <accordion>
+
+    <accordion-group>
+      <accordion-heading>
+        <h4>Message Notification</h4>
+        <p>Get notification if someone sent you a message</p>
+      </accordion-heading>
+      <ui-switch [(ngModel)]="notificationTypes['message']" (change)="changeStatus($event, 'message')" ></ui-switch>
+    </accordion-group>
+
+    <accordion-group>
+      <accordion-heading>
+        <h4>Like Notification</h4>
+        <p>Get notification if someone liked your posts</p>
+      </accordion-heading>
+      <ui-switch [(ngModel)]="notificationTypes['post-like']" (change)="changeStatus($event, 'post-like')" ></ui-switch>
+    </accordion-group>
+
+    <accordion-group>
+      <accordion-heading>
+        <h4>Comment Notification</h4>
+        <p>Get notification if someone commented on your posts</p>
+      </accordion-heading>
+      <ui-switch [(ngModel)]="notificationTypes['post-comment']" (change)="changeStatus($event, 'post-comment')" ></ui-switch>
+    </accordion-group>
+
+    <accordion-group>
+      <accordion-heading>
+        <h4>Share Notification</h4>
+        <p>Get notification if someone shared your posts</p>
+      </accordion-heading>
+      <ui-switch [(ngModel)]="notificationTypes['post-share']" (change)="changeStatus($event, 'post-share')" ></ui-switch>
+    </accordion-group>
+
+    <accordion-group>
+      <accordion-heading>
+        <h4>Recommendation Notification</h4>
+        <p>Get notification if someone sent you recommendation request</p>
+      </accordion-heading>
+      <ui-switch [(ngModel)]="notificationTypes['recommendation']" (change)="changeStatus($event, 'recommendation')" ></ui-switch>
+    </accordion-group>
+
+    <accordion-group>
+      <accordion-heading>
+        <h4>QA Notification</h4>
+        <p>Get notification if someone replied to your question</p>
+      </accordion-heading>
+      <ui-switch [(ngModel)]="notificationTypes['qa']" (change)="changeStatus($event, 'qa')" ></ui-switch>
+    </accordion-group>
+
+  </accordion>
+</div>

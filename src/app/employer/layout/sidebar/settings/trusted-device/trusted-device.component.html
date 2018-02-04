@@ -1,0 +1,52 @@
+
+<h3>Trusted Devices</h3>
+<hr>
+<div *ngIf="(userTrustedDevices)?.length > 0">
+  <a href="javascript:void(0)" (click)="removeAllDevices()" class="btn btn-info pull-right">Remove all devices</a>
+</div>
+
+<div class="jsgrid-grid-body" *ngIf="(userTrustedDevices)?.length > 0">
+  <table class="jsgrid-table table table-striped table-hover">
+    <tbody align="center">
+    <tr class="jsgrid-header-row">
+      <th>No</th>
+      <th>Browser</th>
+      <th>platform</th>
+      <th>Operating System</th>
+      <th class="text-center actions">Action</th>
+    </tr>
+    </tbody>
+
+    <tbody [ngClass]="{'whirl standard': loading }">
+    <tr *ngFor="let device of userTrustedDevices | paginate: { id: 'server', itemsPerPage: perPage, currentPage: p, totalItems: total }; let i= index">
+      <td>{{i+1}}</td>
+      <td>{{device.browser }}</td>
+      <td>{{device.platform}}</td>
+      <td>{{device.os}}</td>
+      <td class="text-center actiond">
+        <div class="dropdown user-pro-body">
+          <a href="#" class="dropdown-toggle u-dropdown"
+             data-toggle="dropdown" role="button" aria-haspopup="true"
+             aria-expanded="false"><i class="fa fa-list-ul" aria-hidden="true" style="color: #1b72e2;"></i>
+          </a>
+          <ul class="dropdown-menu animated flipInY actions-dropdown" style="left: 23px">
+            <li>
+              <a (click)="removeDevice(device._id)" tooltip="Delete"><i class="fa fa-trash action-btn action-btn-event"></i>&nbsp;Delete</a>
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<h5 *ngIf="(userTrustedDevices)?.length==0">You have not saved any device as trusted yet.</h5>
+
+<div class="has-text-centered pagination-div" *ngIf="total > 0">
+  <div class="dataTables_info" role="status" aria-live="polite" style="margin-top: 20px;">Showing {{ total > 0 ? (p +
+    1) : total }} to {{ total > (p + perPage) ? p + perPage : total }} of {{ total }} entries
+    <pagination-controls (pageChange)="getUserTrustedDevices($event)" id="server"
+                         style="float: right;"></pagination-controls>
+  </div>
+</div>

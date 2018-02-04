@@ -1,0 +1,133 @@
+<!--<alert></alert>-->
+<script src="users/companyRegister/companyRegister.component.ts"></script>
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <!--<a class="navbar-brand" routerLink="/dashboard">Dashboard</a>-->
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/job">Jobs</a>
+      </li>
+
+      <li class="nav-item">
+        <!--<a class="nav-link" routerLink="/jobs" *ngIf="isUserAuthenticated()">Job Posting</a>-->
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/feed">News Feed</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/feedback']">Feedback</a>
+      </li>
+      <li class="nav-item">
+        <!--<a class="nav-link" routerLink="/dashboard" *ngIf="isUserAuthenticated()">Dashboard</a>-->
+      </li>
+      <!--<li class="nav-item">-->
+      <!--<a class="nav-link" routerLink="/profile/currentUser.id">My Profile</a>-->
+      <!--</li>-->
+      <!--<li class="nav-item">-->
+      <!--<a class="nav-link" routerLink="/companyProfile">Company Profile</a>-->
+      <!--</li>-->
+      <!--<li class="nav-item" *ngIf="! isUserAuthenticated()">-->
+      <!--<a class="nav-link" routerLink="/company-registration">Company Registration</a>-->
+      <!--</li>-->
+      <li class="nav-item" *ngIf="isUserAuthenticated()">
+      <a class="nav-link" routerLink="/network">Network</a>
+      </li>
+      <li class="nav-item" *ngIf="isUserAuthenticated()">
+      <a class="nav-link" routerLink="/inbox">Messaging</a>
+      </li>
+      <li class="nav-item" *ngIf="isUserAuthenticated()">
+        <a class="nav-link" routerLink="/qa">Q&A</a>
+      </li>
+
+      <li class="nav-item" *ngIf="isUserAuthenticated()">
+      <a class="nav-link" routerLink="/groups">Groups</a>
+      </li>
+
+      <!--<li>-->
+      <!--<app-message-counter></app-message-counter>-->
+      <!--</li>-->
+      <div *ngIf="!_router.url.includes('login')">
+        <li class="nav-item" *ngIf="isUserAuthenticated()">
+          <app-notification-counter></app-notification-counter>
+        </li>
+      </div>
+      <!--<li class="nav-item dropdown">-->
+      <!--<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+      <!--Network-->
+      <!--</a>-->
+      <!--<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">-->
+      <!--<a class="dropdown-item" href="#">Connections</a>-->
+      <!--<a class="dropdown-item" href="#"></a>-->
+      <!--<a class="dropdown-item" href="#">Something else here</a>-->
+      <!--</div>-->
+      <!--</li>-->
+
+
+      <!--<div *ngIf="!_router.url.includes('login')">-->
+        <!--<div *ngIf="!_router.url.includes('two-way-authentication')">-->
+          <!--<div class="settings" style="margin-left: 720px;" *ngIf="isUserAuthenticated()">-->
+                <!--<profile-setting></profile-setting>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+
+
+      <!--<li class="nav-item" style="list-style-type: none; margin-left: 400px;">-->
+      <!--<button type="submit" class="btn btn-primary" routerLink="/company-registration">Sign Up as Employer</button>-->
+      <!--</li>&nbsp; &nbsp;-->
+      <!--<br>-->
+      <!--<li class="nav-item" style="list-style-type: none">-->
+      <!--<button type="submit" class="btn btn-primary" routerLink="/register">Sign Up as JobSeeker</button>-->
+      <!--</li>-->
+    </ul>
+
+    <!--<nav class="navbar navbar-light bg-faded">-->
+    <!--<form class="form-inline">-->
+    <!--<input class="form-control mr-sm-2" type="text" placeholder="Search">-->
+    <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+    <!--</form>-->
+    <!--</nav>-->
+
+
+    <!--<div class="dropdown">-->
+    <!--<a class="btn btn-secondary dropdown-toggle" id="dropdownMenuLink"-->
+    <!--data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" (click)="toggleDropDown()" (clickOutside)="closeDropDown()">-->
+    <!--<a style="color: #0a0a0a" href="/profile/{{currentUser.id}}">-->
+    <!--<strong style="font-size: 8px">-->
+    <!--<img alt="" class="rounded-circle" height="24" width="24" src="{{ currentUser?.userProfilePic? '/api/UploadedFiles/profPics/download/'+currentUser?.userProfilePic.name: '/assets/images/profile.png' }}"> &nbsp;-->
+    <!--{{user.firstName}} {{user.lastName}}-->
+    <!--</strong>-->
+    <!--</a>-->
+    <!--</a>-->
+
+    <!--<div class="dropdown-menu" aria-labelledby="dropdownMenuLink" [style.display]="!isDropDownOpen?'none':'inherit'">-->
+    <!--<a class="dropdown-item" href="/profile/{{currentUser.id}}/profileSettings"><i class="fa fa-cog" aria-hidden="true"></i> &nbsp;&nbsp; Settings</a>-->
+    <!--<a class="dropdown-item" href="#"><i class="fa fa-usd" aria-hidden="true"></i> &nbsp;&nbsp; Subscriptions</a>-->
+    <!--<a class="dropdown-item" href="#"><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;&nbsp; Postings</a>-->
+    <!--<a class="dropdown-item" href="#"><i class="fa fa-question" aria-hidden="true"></i> &nbsp;&nbsp; Help</a>-->
+    <!--<a class="dropdown-item" href="javascript:void(0)" (click)="onLogout()"><i class="fa fa-sign-out" aria-hidden="true"></i> &nbsp;&nbsp; Logout</a>-->
+    <!--</div>-->
+
+    <!--</div>-->
+
+
+  </div>
+</nav>
+
+
+<!--<a routerLink="/dashboard">My Workspace</a>-->
+<!--<a routerLink="questionnaires">Questionnaire Form</a>-->
+<!--<a routerLink="/jobs">Jobs</a>-->
+<!--<a routerLink="/home">Home</a>-->
+<!--<a routerLink="/company-registration">Company Registration</a>-->
+<!--<a routerLink="/job/search">Search Jobs</a>-->
+<!--<a routerLink="/feed">Feed</a>-->
+<!--<a routerLink="/groups">Groups</a>-->
+<!--<a routerLink="/inbox">Inbox</a>-->
+<!--<a routerLink="/qa">Q&A</a>-->
+<div>
+  <router-outlet></router-outlet>
+</div>

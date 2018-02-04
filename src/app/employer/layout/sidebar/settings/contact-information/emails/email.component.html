@@ -1,0 +1,57 @@
+<span class="pull-left"><strong>Email addresses you’ve added:</strong></span>
+<button (click)="displayModal(addEmailModal)" class="btn-circle btn-success pull-right"><i class="fa fa-plus"></i></button>
+<br>
+
+<div class="row">
+  <div class="col-md-4">
+    <strong>{{_employerDataProvider.storage.authUser.email}}</strong>
+  </div>
+  <div class="col-md-3">
+    <strong class="text-success"><i class="fa fa-check-circle"></i>&nbsp;Primary</strong>
+  </div>
+</div>
+
+<div class="row"  *ngFor="let email of emailsList">
+  <div class="col-md-4" >
+    {{email.address}}
+  </div>
+  <div class="col-md-3" *ngIf="email.isVerified">
+    <a href="javascript.void(0)" (click)="makeEmailPrimary(email._id)" class="text-info">Make Primary</a>
+  </div>
+  <div class="col-md-1">
+    <a href="javascript:void(0)" (click)="deleteEmail(email._id)" class="text-danger">Remove</a>
+  </div>
+  <div class="col-md-4">
+    <small>&nbsp;&nbsp;&nbsp;Check your email to verify</small>
+  </div>
+</div>
+
+<div bsModal #addEmailModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="addEmailModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" (click)="closeModal(addEmailModal)" aria-label="Close"><span aria-hidden="true">×</span>
+        </button>
+        <h4 class="modal-title" id="editExampleModalLabel1">Add Email</h4>
+      </div>
+      <div class="modal-body">
+        <form #emailInfoForm="ngForm">
+          <label [class.has-error]="validationErrors['address']">Email Address</label>
+          <input class="form-control" name="address" type="text" [(ngModel)]="emailAddress" placeholder="Email Address" (keydown)="clearCheckEmailText()" [style.border-color]="validationErrors['address'] ? '#a94442': ''"/>
+          <small class="has-error" *ngIf="validationErrors['address']"> {{ validationErrors["address"].split('"').join('') }}</small>
+          <small class="has-error" *ngIf="emailExistText"> {{ emailExistText }}</small>
+        </form>
+
+      </div>
+      <div class="modal-footer" *ngIf="!formLoading">
+        <button type="button" class="btn btn-default" (click)="closeModal(addEmailModal)">Close</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal"
+                (click)="addEmails(emailInfoForm, addEmailModal)">Submit
+        </button>
+      </div>
+      <div class="modal-footer"  *ngIf="formLoading">
+        <i *ngIf="formLoading" class="fa fa-spinner fa-spin"></i>
+      </div>
+    </div>
+  </div>
+</div>

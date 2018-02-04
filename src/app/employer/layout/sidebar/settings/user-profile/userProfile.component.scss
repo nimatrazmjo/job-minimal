@@ -1,0 +1,30 @@
+.alertbox.alert {
+  background-color: #f5e5e5;
+  border: 1px solid #DAA;
+  color: #b43036;
+  max-width: 1000px;
+  margin: 0 auto 20px;
+  border-radius: 3px;
+  padding: 17px 20px;
+  font-size: 14px;
+  line-height: 50px;
+  display: block;
+  height: 100px;
+  font-size: large;
+}
+
+input.ng-dirty.ng-invalid {
+  color: #a94442
+}
+
+input.ng-dirty.ng-invalid.ng-touched:not(form) {
+  color: #a94442
+}
+
+.has-error {
+  color: #a94442;
+}
+
+input.ng-dirty.ng-invalid.ng-touched:not(form) {
+  border: 1px solid #a94442;
+}

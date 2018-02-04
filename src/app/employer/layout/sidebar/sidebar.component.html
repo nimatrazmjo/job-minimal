@@ -1,0 +1,72 @@
+ <!--Left navbar-header -->
+<div class="navbar-default sidebar" role="navigation">
+  <div class="sidebar-nav navbar-collapse slimscrollsidebar">
+    <ul class="nav" id="side-menu" style="visibility:hidden">
+      <li class="sidebar-search hidden-sm hidden-md hidden-lg">
+        <div class="input-group custom-search-form">
+          <input type="text" class="form-control" placeholder="Search...">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button"> <i class="fa fa-search"></i> </button>
+          </span>
+        </div>
+      </li>
+
+      <li class="user-pro">
+        <a href="#" class="waves-effect" (click)="collapseAllOtherMenus()">
+          <div class="row">
+            <div class="col-md-3">
+              <img [src]="profileImageSrc" alt="user-img" class="img-circle">
+            </div>
+            <div class="col-md-9">
+              <span class="hide-menu profile">
+              {{ _employerDataProvider.storage.authUser.firstName }} {{ _employerDataProvider.storage.authUser.lastName }}
+              </span>
+            </div>
+          </div>
+          <span class="fa arrow"></span>
+        </a>
+
+        <ul class="nav nav-second-level collapse" style="background-color: #f4f6f8;">
+            <li><a [routerLink]="['/employer/settings']"><i class="ti-settings"></i>&nbsp;&nbsp;&nbsp;Account Setting</a></li>
+            <li><a [routerLink]="['/employer/subscription']"><i class="fa fa-shopping-bag"></i>&nbsp;&nbsp;&nbsp;Credits</a></li>
+            <li><a href="http://localhost:4200/feed"><i class="ti-world"></i>&nbsp;&nbsp;&nbsp;Jobs.af Website</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a [routerLink]="['/logout']" ><i class="fa fa-power-off"></i>&nbsp;&nbsp;&nbsp;Logout</a></li>
+        </ul>
+      </li>
+
+      <li *ngFor="let item of menus">
+        <a (click)="menuClick(item.id, item.link)" [routerLink]="item.link ? item.link : '' " [ngClass]="['waves-effect']" [class.active]="collapseStatus[item.id]">
+          <i *ngIf="!collapseStatus[item.id] && item.submenu" class="fa fa-angle-right pull-right"></i>
+          <span class="hide-menu">
+            <i class="item-icon" [style.color]="item.color" [ngClass]="item.icon"></i>&nbsp;&nbsp;&nbsp;
+            <span *ngIf="item.text === 'Profile'"><i style="color: #3e4d6c">{{ companyName }}</i> Profile</span>
+            <span *ngIf="item.text !== 'Profile'">{{item.text}}
+            </span>
+            <span *ngIf="collapseStatus[item.id] && item.submenu"class="fa fa-angle-down pull-right"></span>
+          </span>
+        </a>
+        <span *ngIf="collapseStatus[item.id]">
+          <ul class="nav nav-second-level collapse in" *ngIf="item.submenu">
+            <li *ngFor="let subItem of item.submenu">
+              <a [routerLink]="subItem.link" [ngClass]="['waves-effect']" [class.active]="subMenuStatus[subItem.link]"
+                 (click)="subMenuClick(item.id, subItem.link)">
+                <i class="item-icon" [ngClass]="subItem.icon"></i>&nbsp;&nbsp;&nbsp;
+                <span>{{subItem.text}}</span>
+              </a>
+            </li>
+          </ul>
+        </span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="row" *ngIf="companyVerification">
+    <h2 class="text-danger">
+        <div class="alertbox alert">
+            <span class="icon"></span>
+            <strong style="position: absolute; left: 50%;">{{companyVerification}}</strong>
+        </div>
+    </h2>
+</div>

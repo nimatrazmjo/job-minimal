@@ -1,0 +1,65 @@
+.session p {
+  line-height: 0.6;
+}
+.session hr{
+  margin-top: 11px;
+}
+h3 {
+  margin-top: 0px;
+}
+
+.tabs-vertical li a {
+  color: #3e4d6c;
+}
+
+.tabs-vertical li a:hover {
+  color: #85b4d0;
+}
+
+.tabs-vertical li.active a,
+.tabs-vertical li.active a:hover,
+.tabs-vertical li.active a:focus {
+  background: #85b4d0;
+  border-right: 2px solid #85b4d0;
+  color: #fff;
+}
+
+.jsgrid-grid-body {
+  overflow-x: unset;
+  overflow-y: unset;
+}
+
+.session .white-box {
+  margin-bottom: 0px;
+}
+
+.dropdown .dropdown-toggle {
+  color: #515253;
+  font-weight: bold;
+  text-decoration: none;
+}
+.dropdown .dropdown-toggle:hover {
+  text-decoration: none;
+}
+/*.dropdown .dropdown-menu {*/
+  /*left: 38px;*/
+  /*min-width: 137px;*/
+/*}*/
+
+.jsgrid-header-row > th {
+  background: #ffffff;
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+  background-color: #fcfcfc !important;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+  background-color: #fff !important;
+}
+
+.table-hover>tbody>tr:hover, .table>tbody>tr.active>td {
+  background-color: #f7fafc !important;
+  cursor: pointer;
+}
+

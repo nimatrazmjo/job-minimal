@@ -1,0 +1,488 @@
+/* You can add global styles to this file, and also import other style files */
+
+//== Bootstrap
+@import "./app/admin/shared/styles/bootstrap.scss";
+//== Application
+@import "./app/admin/shared/styles/app.scss";
+//== Vendor
+@import '../node_modules/font-awesome/css/font-awesome.css';
+@import '../node_modules/simple-line-icons/css/simple-line-icons.css';
+@import "./assets/css/colors/default.css";
+
+.navbar-top-links>li>a {
+  color: #fff;
+  padding: 0 14px;
+  line-height: 60px;
+  min-height: 60px;
+}
+
+.navbar-default {
+  border: 0 !important;
+  background-color: white !important;
+}
+
+.navbar-top-links {
+  margin-right: 0 !important;
+}
+
+.tab-content:after,
+.tab-content:before {
+  display: table;
+  content: " ";
+}
+
+.tab-content:after {
+  clear: both;
+}
+
+//== ngx-datatable
+//@import '../node_modules/@swimlane/ngx-datatable/release/assets/icons.css';
+//@import '../node_modules/@swimlane/ngx-datatable/release/index.css';
+@import "./plugins/bower_components/sidebar-nav/dist/metisMenu.min.css";
+@import "./plugins/bower_components/jsgrid/jsgrid/jsgrid.min.css";
+@import "./plugins/bower_components/jsgrid/jsgrid/jsgrid-theme.min.css";
+@import "./assets/css/animate.css";
+@import "./assets/sweetalert/sweetalert.css";
+@font-face {
+  font-family: "data-table";
+  src: url("assets/fonts/data-table.eot");
+  src: url("assets/fonts/data-table.eot?#iefix") format("embedded-opentype"), url("assets/fonts/data-table.woff") format("woff"), url("assets/fonts/data-table.ttf") format("truetype"), url("assets/fonts/data-table.svg#data-table") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@import "./assets/css/style.css";
+
+ngx-datatable {
+  [data-icon]:before {
+    font-family: "data-table" !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  [class^="icon-"]:before,
+  [class*=" icon-"]:before {
+    font-family: "data-table" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .icon-filter:before {
+    content: "\62";
+  }
+  .icon-collapse:before {
+    content: "\61";
+  }
+  .icon-expand:before {
+    content: "\63";
+  }
+  .icon-close:before {
+    content: "\64";
+  }
+  .icon-up:before {
+    content: "\65";
+  }
+  .icon-down:before {
+    content: "\66";
+  }
+  .icon-sort:before {
+    content: "\67";
+  }
+  .icon-done:before {
+    content: "\68";
+  }
+  .icon-done-all:before {
+    content: "\69";
+  }
+  .icon-search:before {
+    content: "\6a";
+  }
+  .icon-pin:before {
+    content: "\6b";
+  }
+  .icon-add:before {
+    content: "\6d";
+  }
+  .datatable-icon-left:before {
+    content: "\6f";
+  }
+  .datatable-icon-right:before {
+    content: "\70";
+  }
+  .datatable-icon-skip:before {
+    content: "\71";
+  }
+  .datatable-icon-prev:before {
+    content: "\72";
+  }
+  .material {
+    padding: 10px;
+  }
+}
+
+//end ngx-datatable
+em.required {
+  color: #a94442;
+  
+}
+
+//ng2-dropdown-menu
+.ng2-dropdown-menu {
+  z-index: 9999!important;
+  // top: unset !important;
+  // left: unset !important;
+}
+
+.modal-dialog .ng2-dropdown-menu {
+  left: unset !important;
+  top: unset !important;
+}
+
+.has-danger .col-form-label,
+.has-danger .custom-control,
+.has-danger .form-check-label,
+.has-danger .form-control-feedback,
+.has-danger .form-control-label {
+  color: #d9534f;
+}
+.has-error .form-control,
+.has-error label {
+  color: #a94442 !important;
+  border-color: #a94442 !important;
+}
+
+
+.has-danger .form-control {
+  border-color: #d9534f;
+}
+
+.panel.panel-default {
+  border-top-width: 1px;
+}
+
+.form-group {
+  margin-bottom: 25px !important;
+}
+
+.form-material .form-control,
+.form-material .form-control.focus,
+.form-material .form-control:focus {
+  background-image: linear-gradient(#2c5ca9, #2c5ca9), linear-gradient(rgba(120, 130, 140, .21), rgba(120, 130, 140, .21));
+  border: 0 !important;
+  border-radius: 0;
+  box-shadow: none;
+  float: none;
+}
+
+tag.ng-trigger {
+  border-radius: 3px !important;
+}
+
+.ngx-datatable .datatable-footer .datatable-pager .pager li a i {
+  font-style: normal !important;
+  font-family: "data-table" !important;
+}
+
+.form-control {
+  box-shadow: none !important;
+}
+
+.form-material .has-danger .form-control,
+.form-material .has-danger .form-control:focus {
+  background-image: linear-gradient(#2c5ca9, #2c5ca9), linear-gradient(rgba(247, 3, 3, 0.98), rgba(120, 130, 140, 0.21)) !important;
+}
+
+.has-danger .ng2-tag-input {
+  border-bottom-color: #ed7677 !important;
+  border-bottom-width: 1px !important;
+}
+
+.form-section {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 30px;
+  font-family: Rubik, sans-serif;
+  text-transform: uppercase;
+}
+
+.form-material .form-group {
+  overflow: visible !important;
+}
+
+.form-material .btn {
+  padding: 6px 12px !important;
+}
+
+.ui-select-choices-row.active>a {
+  color: #4f5467 !important;
+  background-color: #f4f6f8 !important;
+}
+
+.form-material .form-control input.ui-select-search,
+.form-material .form-control input.ui-select-search:focus {
+  background-image: none !important;
+}
+
+.tabs-vertical li a {
+  color: #3e4d6c;
+}
+
+.tabs-vertical li a:hover {
+  color: #85b4d0;
+}
+
+.tabs-vertical li.active a,
+.tabs-vertical li.active a:hover,
+.tabs-vertical li.active a:focus {
+  background: #85b4d0;
+  border-right: 2px solid #85b4d0;
+  color: #fff;
+}
+
+.tabs-vertical li a span:nth-child(2) {
+  float: right;
+}
+
+body {
+  background: #f4f6f8;
+  font-family: 'Rubik', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  color: #686868;
+  font-weight: 300;
+}
+
+label {
+  font-weight: 500;
+}
+.jsgrid-grid-body {
+  overflow-x: unset !important;
+  overflow-y: unset !important;
+}
+.jsgrid {
+  overflow: unset !important;
+}
+//.dropdown-menu {
+//  min-width: unset !important;
+//}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #3e4d6c;
+}
+.jsgrid-edit-row>td, .jsgrid-filter-row>td
+, .jsgrid-header-row>th, .jsgrid-insert-row>td {
+ border: 1px solid #e9e9e9; 
+}
+
+.jsgrid-grid-header, .jsgrid-grid-body { 
+  overflow: auto; 
+} 
+input.ng-dirty.ng-invalid { 
+  color:#a94442 
+} 
+input.ng-dirty.ng-invalid.ng-touched:not(form) 
+{ 
+  color: #a94442 
+} 
+.has-error { color: #a94442; } 
+.table-striped>tbody>tr:nth-of-type(odd) 
+{ 
+  background-color: #fcfcfc !important; 
+} 
+.table-hover>tbody>tr:hover, .table>tbody>tr.active>td { 
+  background-color: #f7fafc !important; cursor: pointer; 
+} 
+.jsgrid-grid-body { 
+  overflow-y: unset; 
+  overflow-x: unset; 
+} 
+.dropdown { 
+  position: relative; 
+}
+
+.table > tbody + tbody {
+  border-top: none;
+}
+
+// .jsgrid-edit-row>td, 
+// .jsgrid-filter-row>td, 
+// .jsgrid-grid-body, 
+// .jsgrid-grid-header,
+//  .jsgrid-header-row>th, 
+//  .jsgrid-insert-row>td {
+//   border-top: none !important;
+//   border-bottom: none !important;
+// }
+
+.jsgrid-grid-body, 
+.jsgrid-grid-header {
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
+.actions {
+  width: 160px;
+}
+
+.actions-dropdown {
+  position: absolute;
+  left: 5px;
+  right: -7px;
+}
+
+.autocomplete {
+  margin-top: -3px !important;
+}
+
+.jsgrid-filter-row td {
+  font-size: 11px;
+}
+
+.date {
+  width: 144px;
+}
+
+.modal-backdrop.fade {
+  background-color: #686868 !important;
+  opacity: 0.5 !important;
+}
+
+.form-margin {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.statement .ng2-tag-input {
+  border: 1px solid #dde6e9 !important;
+  padding: 0px 0px !important;
+  border-radius: 4px !important;
+}
+
+.statement .ng2-tag-input.ng2-tag-input--focused {
+  border-bottom: 1px solid #dde6e9 !important;
+}
+
+.statement .ng2-tag-input__text-input {
+  height: 32px !important;
+}
+
+.input-group-btn > .btn {
+  height: 35px;
+}
+@media (max-width: 767px) {
+  .top-left-part {
+    background-color: #3797D3 !important;
+  }
+  .logo b {
+    display: none !important;
+  }
+  .sidebar .sidebar-nav.navbar-collapse {
+    width: 100vw !important;
+  }
+  .fix-header .sidebar {
+    position: unset !important;
+    height: unset !important;
+  }
+  .fix-header #page-wrapper {
+    margin-top: 0px !important;
+  }
+}
+
+#side-menu>li>a.active {
+  color: #ff6849 !important;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 5px;
+  background-color: rgb(202, 197, 197);
+} 
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #cfc9c9;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+  background-color: rgb(255, 255, 255);
+}
+
+/****************************** Employer custom styles *******************************/
+strong {
+  font-weight: bold !important;
+}
+.badge {
+  border-radius: 3px;
+}
+.ng2-tag-input__text-input {
+width: 300px !important;
+}
+
+.tag-wrapper {
+padding-left: 4px !important;
+padding-right: 2px !important;
+}
+
+tag {
+  font-family: 'Rubik', sans-serif !important;
+  border-radius: 5px !important;
+}
+
+.job-status-label {
+  display: inline-block !important;
+}
+
+.label-drafted {
+  background-color: #008efa;
+}
+
+.label-archived {
+  background-color: #f75b36;
+}
+
+.label-expired {
+  background-color: #f8c255;
+}
+
+.label-published {
+  background-color: #00c292;
+}
+
+.b-r-20 {
+  border-radius: 20px !important;
+}
+
+.has-error {
+  color: #a94442;
+}
+
+.p-l-5 {
+  padding-left: 5px !important;
+}
+
+.m-t-minus-10 {
+  margin-top: -10px !important;
+}
+
+.m-b-10 {
+  margin-bottom: 10px !important;
+}
+
+.m-t-15 {
+  margin-top: 15px !important;
+}
+
+.m-50 {
+  margin: 50px !important;
+}

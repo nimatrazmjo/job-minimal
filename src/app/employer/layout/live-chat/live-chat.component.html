@@ -1,0 +1,62 @@
+<a class="btn btn-info btn-circle btn-lg waves-effect waves-light" *ngIf="!isVisible && (liveChat ? (((liveChat | userDetails)?.status == 0 || (liveChat | userDetails)?.status == 1) ? true: false) : true)" (click)="toggleChatBox($event)" id="chat-button">
+    <i class="fa fa-comments"></i>
+    <div *ngIf="liveChat?.messages[liveChat.messages.length-1]?.seenByMembers.indexOf(authUserId) == -1" class="notify">
+        <span class="heartbit"></span>
+        <span class="point"></span>
+    </div>  
+</a>
+
+<div *ngIf="isVisible  && (liveChat ? (((liveChat | userDetails)?.status == 0 || (liveChat | userDetails)?.status == 1) ? true: false) : true)" #chatBox class="col-md-4 col-sm-12 col-xs-12" id="chat-box">
+    <div class="row chat-header">
+        <span style="color:white;">Live Chat</span>
+        <a class="close" (click)="toggleChatBox($event)">&times;</a>            
+    </div>
+    <div class="chat-box" *ngIf="liveChat? (liveChat | userDetails)?.status == 0 : true">
+        <div class="slimScrollDiv" id="style-1" #scrollMe>
+            <ul class="chat-list slimscroll p-t-30">
+                <li [ngClass]="(message?.owner.userId != authUserId) ?  null: 'odd'" *ngFor="let message of liveChat?.messages">
+                    <div *ngIf="message.text">
+                        <div class="chat-image">
+                            <img alt="Female" [src]="(chat | userDetails : [message?.owner.userId])?.profilePic ? baseUrl + (chat | userDetails : [message?.owner.userId])?.profilePic.container + '/' +  (chat | userDetails : [message?.owner.userId])?.profilePic.name : 'assets/images/profile.png'">
+                        </div>
+                        <div class="chat-body">
+                            <div class="chat-text">
+                            <!-- <h4>{{getParticipantDetails(message?.owner.userId)?.firstName + ' ' + getParticipantDetails(message?.owner.userId)?.lastName}}</h4> -->
+                            <p> {{ message?.text }} </p>
+                            <b>{{message.createdAt | amTimeAgo}}</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div *ngIf="message.attachment">
+                        <div class="chat-image">
+                        <img alt="Female" [src]="message.owner.profilePic ? participant.profilePic.container + '/' +  participant.profilePic.name : 'assets/images/profile.png'">
+                        </div>
+                        <div class="chat-body">
+                            <div *ngIf="message?.attachment != null">
+                            <img class="img-thumbnail" [src]="getDownloadUrl('threadFiles', message.attachment.fileName)" style="width:30%; height: 30%; margin-bottom: 10px;">
+                            </div>
+                            <b>{{message.createdAt | amTimeAgo}}</b>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="chat-body" style="width: 90%;"> 
+                        {{typingMessage}}
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="text-center white" *ngIf="liveChat ? (liveChat | userDetails).status == 1 : false">
+        <h4>Conversation has been closed</h4>
+    </div>
+
+    <div *ngIf="liveChat ? (liveChat | userDetails)?.status == 0 : true" class="row" style="padding:10px;">
+        <form #form="ngForm">
+            <div class="col-sm-12 col-md-12">
+                <input type="text" class="form-control" [(ngModel)]="text" name="text" required placeholder="Write your message" (keydown.enter)="create(form, $event)" (keyup)="keyUp()">
+            </div>
+        </form>
+    </div>
+</div>

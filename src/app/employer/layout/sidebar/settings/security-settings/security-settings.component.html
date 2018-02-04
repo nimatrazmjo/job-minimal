@@ -1,0 +1,37 @@
+<div>
+  <h3>Security settings</h3>
+  <hr>
+  <accordion>
+    <accordion-group>
+      <accordion-heading>
+        <h4>Email Addresses</h4>
+        <p>Add or remove email addresses to your account</p>
+      </accordion-heading>
+      <email *ngIf="_employerDataProvider.storage.authUser"></email>
+    </accordion-group>
+
+    <accordion-group>
+      <accordion-heading>
+        <h4>Phone Numbers</h4>
+        <p>Add or remove phone numbers to your account</p>
+      </accordion-heading>
+      <phone *ngIf="_employerDataProvider.storage.authUser"></phone>
+    </accordion-group>
+
+    <accordion-group>
+      <accordion-heading>
+        <h4>Change Password</h4>
+        <p>Choose a unique password to protect your account</p>
+      </accordion-heading>
+      <change-password></change-password>
+    </accordion-group>
+
+    <!--<accordion-group>-->
+      <!--<accordion-heading>-->
+        <!--<h4>Two-step Authentication</h4>-->
+        <!--<p>Activate this feature for enhanced account security</p>-->
+      <!--</accordion-heading>-->
+      <!--<ui-switch *ngIf="user" [(ngModel)]="user.twoWayAutEnabled" (change)="onAuthChange($event, user._id)" ></ui-switch>-->
+    <!--</accordion-group>-->
+  </accordion>
+</div>

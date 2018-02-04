@@ -1,0 +1,74 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/tmp
+/public/__build__/
+/src/*/__build__/
+/__build__/**
+/public/dist/
+/src/*/dist/
+/dist/**
+/.awcache
+.webpack.json
+/compiled/
+dll/
+
+# dependencies
+/node_modules
+*/node_modules
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+**.js
+**.js.map
+.settings/
+
+# IDE - VSCode
+.vscode/
+
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+#System Files
+.DS_Store
+Thumbs.db
+
+*.csv
+*.dat
+*.iml
+*.log
+*.out
+*.pid
+*.seed
+*.sublime-*
+*.swo
+*.swp
+*.tgz
+*.xml
+.strong-pm
+coverage
+.env
+
+npm-debug*
+/admin/dist
+
+package-lock.json
+npm
+
+/src/environments/.env.ts
+/src/environments/.env.js
+!/src/assets/js/admin-header.js

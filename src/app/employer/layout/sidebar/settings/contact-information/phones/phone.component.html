@@ -1,0 +1,65 @@
+<span class="pull-left"><strong *ngIf="(phonesList)?.length!=0">Phone numbers you’ve added:</strong></span>
+<button (click)="displayModal(addPhoneModal)" class="btn-circle btn-success pull-right"><i class="fa fa-plus"></i></button>
+<br>
+
+<div class="row"  *ngFor="let phone of phonesList">
+  <div class="col-md-1" >
+    <span>{{phone.phoneType}}</span>
+  </div>
+  <div class="col-md-2 m-l-10">
+    <span> {{phone.number}}</span>
+  </div>
+  <div class="col-md-1">
+    <a href="javascript:void(0)" (click)="deletePhone(phone._id)" class="text-danger">Remove</a>
+  </div>
+</div>
+
+<div *ngIf="(phonesList)?.length == 0">No phone number added</div>
+
+<div bsModal #addPhoneModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="addPhoneModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" (click)="closeModal(addPhoneModal)" aria-label="Close"><span aria-hidden="true">×</span>
+        </button>
+        <h4 class="modal-title" id="editExampleModalLabel1">Add Phone</h4>
+      </div>
+      <div class="modal-body">
+        <form #phoneInfoForm="ngForm">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label [class.has-error]="validationErrors['phoneType']">Phone Type</label>
+                <select class="form-control" name="phoneType" [(ngModel)]="selectDefaultValue" [style.border-color]="validationErrors['phoneType'] ? '#a94442': ''">
+                  <option value="" selected>Select Phone Type </option>
+                  <option value= "Personal">Personal</option>
+                  <option value= "Office">Office</option>
+                  <option value= "Home">Home</option>
+                </select>
+                <small class="has-error" *ngIf="validationErrors['phoneType']"> {{ validationErrors["phoneType"].split('"').join('') }}</small>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="form-group">
+                <label [class.has-error]="validationErrors['address']">Phone Number</label>
+                <input class="form-control" name="number" type="text" [(ngModel)]="numberValue" placeholder="Phone Number" [style.border-color]="validationErrors['number'] ? '#a94442': ''"/>
+                <small class="has-error" *ngIf="validationErrors['number']"> {{ validationErrors["number"].split('"').join('') }}</small>
+                <small class="has-error" *ngIf="phoneAlreadyExists"> {{ phoneAlreadyExists }}</small>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer" *ngIf="!formLoading">
+        <button type="button" class="btn btn-default" (click)="closeModal(addPhoneModal)">Close</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal"
+                (click)="addPhones(phoneInfoForm, addPhoneModal)">Submit
+        </button>
+      </div>
+      <div class="modal-footer"  *ngIf="formLoading">
+        <i *ngIf="formLoading" class="fa fa-spinner fa-spin"></i>
+      </div>
+    </div>
+  </div>
+</div>

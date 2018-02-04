@@ -1,0 +1,36 @@
+.item-icon{
+  padding-right: 7px;
+}
+.alertbox.alert {
+  background-color: #f5e5e5;
+  border: 1px solid #DAA;
+  color: #b43036;
+  max-width: 1000px;
+  margin: 10px auto -120px;
+  border-radius: 3px;
+  padding: 17px 20px;
+  font-size: 14px;
+  line-height: 50px;
+  display: block;
+  height: 100px;
+  font-size: large;
+}
+
+.profile {
+  vertical-align: -webkit-baseline-middle;
+  vertical-align: -moz-middle-with-baseline;
+}
+
+#side-menu > li > a.active {
+  color: #54667a !important;
+  border-left: 3px solid #54667a !important;
+  background-color: rgb(244, 246, 248) !important;
+}
+
+#side-menu ul>li>a.active {
+  color: #54667a !important;
+}
+
+#side-menu li a {
+  border-left: 0px !important;
+}

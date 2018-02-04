@@ -1,0 +1,69 @@
+
+<h3>Active Sessions</h3>
+<hr>
+<h4>Current Session</h4>
+<div class="jsgrid-grid-body">
+  <table class="jsgrid-table table">
+    <tbody align="center">
+      <tr class="jsgrid-header-row">
+        <th>IP</th>
+        <th>Last Activity</th>
+        <th>Device</th>
+      </tr>
+    </tbody>
+    <tbody>
+    <tr *ngFor="let activeSession of userActiveSession">
+      <td>{{activeSession.ip}}</td>
+      <td>{{activeSession.lastActivity | date:'medium'}}</td>
+      <td>{{activeSession.browser}} on {{activeSession.os}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<h4>Other Sessions</h4>
+<div *ngIf="(userNotActiveSessions)?.length > 0">
+  <a href="javascript:void(0)" (click)="blockAllSessions()" class="btn btn-info pull-right" style="color: #fffff5;padding: 3px 5px;">Block all sessions</a>
+</div>
+<div class="jsgrid-grid-body" *ngIf="(userNotActiveSessions)?.length > 0">
+  <table class="jsgrid-table table table-striped table-hover">
+    <tbody align="center">
+    <tr class="jsgrid-header-row">
+      <th>IP</th>
+      <th>Last Activity</th>
+      <th>Device</th>
+      <th class="text-center actions">Action</th>
+    </tr>
+    </tbody>
+
+    <tbody [ngClass]="{'whirl standard': loading }">
+    <tr *ngFor="let otherSession of userNotActiveSessions | paginate: { id: 'server', itemsPerPage: perPage, currentPage: p, totalItems: total }">
+      <td>{{otherSession.ip}}</td>
+      <td>{{otherSession.lastActivity | date:'medium'}}</td>
+      <td>{{otherSession.browser}} on {{otherSession.os}}</td>
+      <td class="text-center actions">
+        <div class="dropdown user-pro-body">
+          <a href="#" class="dropdown-toggle u-dropdown"
+             data-toggle="dropdown" role="button" aria-haspopup="true"
+             aria-expanded="false"><i class="fa fa-list-ul" aria-hidden="true" style="color: #1b72e2;"></i>
+          </a>
+          <ul class="dropdown-menu animated flipInY actions-dropdown">
+            <li>
+              <a (click)="blockSession(otherSession._id)" tooltip="Block"><i class="fa fa-ban action-btn action-btn-event"></i>&nbsp;Block</a>
+            </li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<h5 *ngIf="(userNotActiveSessions)?.length==0">No other session is active</h5>
+
+<div class="has-text-centered pagination-div" *ngIf="total > 0">
+  <div class="dataTables_info" role="status" aria-live="polite" style="margin-top: 20px;">Showing {{ total > 0 ? (p +
+    1) : total }} to {{ total > (p + perPage) ? p + perPage : total }} of {{ total }} entries
+    <pagination-controls (pageChange)="getUserOtherSessions($event)" id="server"
+                         style="float: right;"></pagination-controls>
+  </div>
+</div>

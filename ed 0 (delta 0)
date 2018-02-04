@@ -1,0 +1,3931 @@
+[33mcommit 03994ce9b15178519ca480795dabd06496d86c9d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: dawlat-netlinks <dawlatzai@netlinks.ws>
+Date:   Wed Jan 31 10:51:56 2018 +0430
+
+    Fix conflict issue
+
+[33mcommit 16de88aad1eba2e62b8dad014598c58da1db4030[m
+Merge: 64cc7040 f4a6d942
+Author: dawlat-netlinks <dawlatzai@netlinks.ws>
+Date:   Wed Jan 31 10:36:41 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-website
+
+[33mcommit 64cc7040abd72d88da6e7538ffeceecc602835ae[m
+Author: dawlat-netlinks <dawlatzai@netlinks.ws>
+Date:   Wed Jan 31 10:36:23 2018 +0430
+
+    Remove extra logs
+
+[33mcommit d6c2d730e7adf61142b04c717044bc18493586cc[m
+Author: dawlat-netlinks <dawlatzai@netlinks.ws>
+Date:   Wed Jan 31 10:32:18 2018 +0430
+
+    Remove authorizedHttp from package service
+
+[33mcommit f4a6d9423886cc9578c4bf28a52e1917f5e68d2f[m[33m ([m[1;31mupstream/master[m[33m, [m[1;31mjobs/master[m[33m)[m
+Merge: 5d5aaf92 87d48cf0
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Jan 31 10:05:18 2018 +0430
+
+    Merge pull request #390 from sadaf-netlinks/master
+    
+    Change bank account to one component and add breadcrumb
+
+[33mcommit 87d48cf0ad6a749edb2d26038d4d491787fb9ed9[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Jan 31 10:00:56 2018 +0430
+
+    Change bank account to one component and add breadcrumb
+
+[33mcommit e569e7924c7551359669b1b428dc4f914a602d70[m
+Merge: 80ed8313 5d5aaf92
+Author: dawlat-netlinks <dawlatzai@netlinks.ws>
+Date:   Wed Jan 31 09:43:51 2018 +0430
+
+    Resolve conflicts
+
+[33mcommit 5d5aaf92a1fcafc87c47d1c52155010be7c7cd0a[m
+Merge: d5c5a11c a35af06e
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Jan 31 09:39:01 2018 +0430
+
+    Merge pull request #389 from matiullah-netlinks/master
+    
+    Fix admin user.service.ts issue
+
+[33mcommit a35af06e7afaa6cb95f755ae1ae87f77d2fcd262[m
+Author: Matiullah Karimi <karimi@netlinks.ws>
+Date:   Wed Jan 31 09:37:37 2018 +0430
+
+    fix user service issue
+
+[33mcommit 80ed8313c702911bdce63ee94e56c217a8254741[m
+Merge: a97a91dc d5c5a11c
+Author: dawlat-netlinks <dawlatzai@netlinks.ws>
+Date:   Wed Jan 31 09:02:04 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-website
+
+[33mcommit a97a91dcb6302de18812898bb02f819334aa4fd1[m
+Author: dawlat-netlinks <dawlatzai@netlinks.ws>
+Date:   Wed Jan 31 09:01:01 2018 +0430
+
+    Fix post issue
+
+[33mcommit 4a83bfa2b6162390158f4e5f0f8ff6f2daef5156[m
+Merge: b6457b65 d5c5a11c
+Author: Matiullah Karimi <karimi@netlinks.ws>
+Date:   Wed Jan 31 08:57:06 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-website
+
+[33mcommit b6457b6556e4835b187f9948724d0cc6e0ecae0b[m
+Author: Matiullah Karimi <karimi@netlinks.ws>
+Date:   Wed Jan 31 08:56:53 2018 +0430
+
+    Add employer styles
+
+[33mcommit d5c5a11c8096d2577130375909c5c609ebea2ab0[m
+Merge: 6738959e b1c3bf84
+Author: Mobasher-NetLinks <mobasher@netlinks.af>
+Date:   Tue Jan 30 16:02:11 2018 +0430
+
+    Merge pull request #387 from matiullah-netlinks/master
+    
+    Fix some design issues
+
+[33mcommit 6738959e0653a025f8728168b7f7e4c1adb65753[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Jan 30 15:29:11 2018 +0430
+
+    Fix type error
+
+[33mcommit b1c3bf844ae3817ee1081f61b2808e03c84f9ee8[m
+Merge: 1544d8f4 df0c57ab
+Author: Matiullah Karimi <karimi@netlinks.ws>
+Date:   Tue Jan 30 14:58:25 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-website
+
+[33mcommit 1544d8f4462bffac8a68d4e62933862b0588b300[m
+Author: Matiullah Karimi <karimi@netlinks.ws>
+Date:   Tue Jan 30 14:57:37 2018 +0430
+
+    Fix some design issues
+
+[33mcommit df0c57ab1dd36a173b84f7b58c000b35e7fcc3f2[m
+Merge: 49478261 9b5ebf0d
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Jan 30 11:36:59 2018 +0430
+
+    Merge pull request #386 from sadaf-netlinks/master
+    
+    Change handle error function
+
+[33mcommit 1009e640701bb45b3687900edf83ea6cffb34dfa[m
+Merge: 9b5ebf0d 49478261
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Jan 30 11:36:15 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-website
+
+[33mcommit 9b5ebf0d0d4fa8ef8bec0dda9130c7f844eb07db[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Jan 30 11:34:00 2018 +0430
+
+    Add map to concern area unauthorized get
+
+[33mcommit 94cdec932df7f670c7e07590bf2d9239d127ef06[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Jan 30 11:30:54 2018 +0430
+
+    change handle error function
+
+[33mcommit 49478261dd33537bf5cff82534b706d02572cc5a[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Jan 30 10:44:37 2018 +0430
+
+    Fix http issue in website
+
+[33mcommit fabb0e947a74157ec1e255d54a00b3f42f0bd303[m
+Merge: 3db84946 b6b0500d
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Jan 30 10:23:35 2018 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-website
+
+[33mcommit 3db84946f5fdb52c9935d1ba8f102447340aafd3[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Jan 30 10:19:46 2018 +0430
+
+    Add prefix  to all admin module
+
+[33mcommit b6b0500d971696a6bd0cefd075b6df6954e91908[m
+Merge: e359344b 74275c2f
+Author: mobasher <mobasher@netlinks.af>
+Date:   Tue Jan 30 10:02:07 2018 +0430
+
+    Fix type errors
+
+[33mcommit e359344be17654389b380840a197065d01070717[m
+Merge: e755a391 ed928afc
+Author: mobasher <mobasher@netlinks.af>
+Date:   Tue Jan 30 10:00:01 2018 +0430
+
+    Fix type errors
+
+[33mcommit 74275c2f1222e91bf3a0bab82c93bacdc02e2157[m
+Merge: ed928afc a5aceafd
+Author: Mobasher-NetLinks <mobasher@netlinks.af>
+Date:   Tue Jan 30 09:53:03 2018 +0430
+
+    Merge pull request #382 from sadaf-netlinks/master
+    
+    Change bank account logo upload
+
+[33mcommit e755a391cc53442c74290e7b43d959541786df00[m
+Merge: 1f7304d2 db4bedb8
+Author: mobasher <mobasher@netlinks.af>
+Date:   Tue Jan 30 09:18:35 2018 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-website
+
+[33mcommit 1f7304d266bc95dbd788058c16d57e965566a314[m
+Merge: d3ab9d3c 7245282c
+Author: mobasher <mobasher@netlinks.af>
+Date:   Tue Jan 30 09:18:25 2018 +0430
+
+    Fix breadcrumb issue
+
+[33mcommit a5aceafde20d386e634a547240bfa756b4a1543e[m
+Merge: 66e8ceb6 db4bedb8
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Jan 30 09:09:11 2018 +0430
+
+    Resolve conflicts
+
+[33mcommit ed928afcc6204af3392a585ab8099e402df81ee7[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 28 18:20:44 2018 +0430
+
+    upgrade webpack version
+
+[33mcommit db4bedb883561142b94fc67bdc1591c4556dfbe6[m
+Merge: e2eef79a b79af79d
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 28 15:35:25 2018 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-website
+
+[33mcommit e2eef79af87491142ad8a2a9bf2857dfa64db5d3[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 28 15:32:41 2018 +0430
+
+    change employer side-bar color
+
+[33mcommit b79af79dde68de5673bf7cb78b1a753cca894320[m
+Merge: 713a2948 071c80ce
+Author: Mobasher-NetLinks <mobasher@netlinks.af>
+Date:   Sun Jan 28 15:15:47 2018 +0430
+
+    Merge pull request #384 from matiullah-netlinks/master
+    
+     Add pace and fix job validations
+
+[33mcommit 713a29487a7481d41936eeb50cd727f6e3fd7a35[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 28 15:10:34 2018 +0430
+
+    remove token from getToken().token
+
+[33mcommit 071c80ce62949a00f471324c05528cd5e9bff3d5[m
+Merge: fa662c21 7245282c
+Author: Matiullah Karimi <karimi@netlinks.ws>
+Date:   Sun Jan 28 14:44:30 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-website
+
+[33mcommit fa662c21ea998596dd426ca056ad13dc1e0069dd[m
+Author: Matiullah Karimi <karimi@netlinks.ws>
+Date:   Sun Jan 28 14:43:00 2018 +0430
+
+    Add pace and fix job validations
+
+[33mcommit d3ab9d3c135b7e377048b9469abd13aba4d1433f[m
+Author: mobasher <mobasher@netlinks.af>
+Date:   Sun Jan 28 13:30:30 2018 +0430
+
+    Change breadcrumb
+
+[33mcommit 7245282c2fa99dacb4cbefc7c1a385e2bf0631b1[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 28 11:20:09 2018 +0430
+
+    Remove ng-formly package
+
+[33mcommit b8bef97998d2d39b2e9688e1e2f117559fc29f7b[m
+Merge: 4085308b 9f22c7ad
+Author: dawlat-netlinks <dawlatzai@netlinks.ws>
+Date:   Sun Jan 28 10:15:11 2018 +0430
+
+    fix post issue
+
+[33mcommit 9f22c7ad0a15dfc5798196fc164209523e14db5a[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 28 09:20:04 2018 +0430
+
+    Fix typo issue
+
+[33mcommit 6892aa7f32189aa6377df34dff1773da9aca149f[m
+Merge: c40612d8 beff75a5
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Jan 27 16:28:39 2018 +0430
+
+    Merge pull request #379 from behishta-netlinks/master
+    
+    Modify sweet alert functionality
+
+[33mcommit beff75a5a55b333861e9531ea7e32aa44cc8e4e7[m
+Merge: 0bd2d1c4 7a60f45a
+Author: behishta-netlinks <behishta@netlinks.ws>
+Date:   Sat Jan 27 16:19:41 2018 +0430
+
+    Resolve conflicts
+
+[33mcommit c40612d87a4bf4f78d1335979c1c43d65ab4577c[m
+Merge: 7a60f45a ec8ac066
+Author: Mobasher-NetLinks <mobasher@netlinks.af>
+Date:   Sat Jan 27 16:13:48 2018 +0430
+
+    Merge pull request #383 from matiullah-netlinks/master
+    
+     Add pace for components
+
+[33mcommit 0bd2d1c4b0089373b20d1a260bae655c3b026280[m
+Author: behishta-netlinks <behishta@netlinks.ws>
+Date:   Sat Jan 27 16:12:43 2018 +0430
+
+    Bring some changes in handling error for validation messages
+
+[33mcommit 7a60f45a2453efb1a5fb1ea889e760e88e75842f[m
+Merge: cb8e0bce 1de8de23
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Jan 27 16:07:25 2018 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-website
+
+[33mcommit 30c91dd572a21aa9b0b1e7049245176a2c7d2a76[m
+Merge: ec8ac066 7a60f45a
+Author: Matiullah Karimi <karimi@netlinks.ws>
+Date:   Sat Jan 27 16:06:29 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-website
+
+[33mcommit ec8ac066e1cb0bbc214a754cafe682f3de30f3d8[m
+Author: Matiullah Karimi <karimi@netlinks.ws>
+Date:   Sat Jan 27 16:03:38 2018 +0430
+
+    Add pace for components
+
+[33mcommit cb8e0bce1482f1080f6f602ccedf528b9467eea4[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Jan 27 16:01:50 2018 +0430
+
+    Enhance login and authentication
+
+[33mcommit 4085308bffea9cf21927ac3591dc20e581ab23c8[m
+Author: dawlat-netlinks <dawlatzai@netlinks.ws>
+Date:   Sat Jan 27 15:18:56 2018 +0430
+
+    Fix post update and design issue in employer panel
+
+[33mcommit e0380aaba6f2e956515c8784635106018516206f[m
+Author: behishta-netlinks <behishta@netlinks.ws>
+Date:   Sat Jan 27 13:43:25 2018 +0430
+
+    Solve some issues
+
+[33mcommit 960c1cfa713ae7e479d685021c0509874bbc1983[m
+Merge: ee2e1dbf 1de8de23
+Author: behishta-netlinks <behishta@netlinks.ws>
+Date:   Sat Jan 27 12:03:42 2018 +0430
+
+    Resolve conflicts
+
+[33mcommit ee2e1dbfa6cdf7cee7f9ba21061d2431e38b2476[m
+Author: behishta-netlinks <behishta@netlinks.ws>
+Date:   Sat Jan 27 11:45:04 2018 +0430
+
+    brings some changes in jobbseeker profile
+
+[33mcommit 1de8de231333389aa9d954dfad9392c87740a688[m
+Merge: 6969ab36 5c183cf6
+Author: Mobasher-NetLinks <mobasher@netlinks.af>
+Date:   Sat Jan 27 11:04:17 2018 +0430
+
+    Merge pull request #378 from dawlat-netlinks/master
+    
+    Fix employer links
+
+[33mcommit 5c183cf6cdfa70334faff57fcd4b708548464f61[m
+Author: dawlat-netlinks <dawlatzai@netlinks.ws>
+Date:   Sat Jan 27 10:56:27 2018 +0430
+
+    Fix catch issue
+
+[33mcommit f00845ecdbc8a6cd733d3e176da77cff1dcfd56b[m
+Merge: 04b6f6d3 6969ab36
+Author: dawlat-netlinks <dawlatzai@netlinks.ws>
+Date:   Sat Jan 27 08:39:35 2018 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-website
+
+[33mcommit f485b71273006b3a43709d80f4295d0e18113bb7[m
+Merge: 0f25ccbf 6969ab36
+Author: Matiullah Karimi <karimi@netlinks.ws>
+Date:   Sat Jan 27 08:29:43 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-website
+
+[33mcommit 04b6f6d31776057dea8651b7801757b636cfdf77[m
+Author: dawlat-netlinks <dawlatzai@netlinks.ws>
+Date:   Fri Jan 26 12:27:38 2018 +0430
+
+    Fix routes and add quilEditor in post component
+
+[33mcommit 66e8ceb6a5bee41668369036ea81d14ae8ac5234[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Jan 25 13:53:19 2018 +0430
+
+    Change bank account logo upload
+
+[33mcommit 0f25ccbfb338d04da4bdd90d26e1d46aeb3c8384[m
+Author: Matiullah Karimi <karimi@netlinks.ws>
+Date:   Thu Jan 25 11:57:49 2018 +0430
+
+    Fix dropdown design issue
+
+[33mcommit 3ce79114fb6448a05f96a27b9c8c4c8b335663a0[m
+Merge: 8d0aec4f 6969ab36
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Jan 25 10:35:19 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-website
+
+[33mcommit 6969ab36ba7e7768fcb9ef7700d9798c2276a2b6[m
+Merge: 4e3f20f2 d2bf1e9d
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Jan 25 10:34:11 2018 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-website
+
+[33mcommit 4e3f20f2784995a7f107bf143fef02c0e033d657[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Jan 25 10:33:50 2018 +0430
+
+    Add Http instread of AuthorizedHTTP in website
+
+[33mcommit 7ec067bc3bde26b4a9f333bc18f81fd3c8978110[m
+Merge: 62595449 d2bf1e9d
+Author: behishta-netlinks <behishta@netlinks.ws>
+Date:   Thu Jan 25 09:54:26 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-website
+
+[33mcommit 625954493a5bd90a16ba63751f7b44177156e18f[m
+Author: behishta-netlinks <behishta@netlinks.ws>
+Date:   Thu Jan 25 09:52:56 2018 +0430
+
+    Bring some changes in jobSeeker profile
+
+[33mcommit d2bf1e9d0185683d197fe2b7f480efece220841d[m
+Merge: 02461f25 f5dc813d
+Author: Mobasher-NetLinks <mobasher@netlinks.af>
+Date:   Thu Jan 25 09:28:04 2018 +0430
+
+    Merge pull request #380 from matiullah-netlinks/master
+    
+    Fix some issues
+
+[33mcommit 3878f52ea5f9b5012e2ca679bdc2cc68293caad2[m
+Author: Matiullah Karimi <karimi@netlinks.ws>
+Date:   Thu Jan 25 09:07:57 2018 +0430
+
+    Solve conflict
+
+[33mcommit 4bd97af6c995bf0b97533854c0ea8813560e292c[m
+Merge: ba2e41ee 02461f25
+Author: Matiullah Karimi <karimi@netlinks.ws>
+Date:   Thu Jan 25 09:06:49 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-website
+
+[33mcommit 02461f25179c428a2ae0242cdc23cf08ff99a711[m
+Merge: 207b294e df175435
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Jan 25 09:06:28 2018 +0430
+
+    Merge pull request #381 from sadaf-netlinks/master
+    
+    add header js file
+
+[33mcommit ba2e41ee54ea914949177a50b256a64ef4558284[m
+Author: Matiullah Karimi <karimi@netlinks.ws>
+Date:   Thu Jan 25 09:05:57 2018 +0430
+
+    Fix input design
+
+[33mcommit 8d0aec4f21313f4c7109aaef0a1ffc1ae6897a46[m
+Merge: df175435 207b294e
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Jan 25 09:03:26 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-website
+
+[33mcommit df175435812fc9d7f19a50bdb95070cb5a71bc68[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Jan 25 09:00:55 2018 +0430
+
+    add header js file
+
+[33mcommit 0e0719d6e740d4a1d8d48d91ae6310e710a27811[m
+Merge: a016ca8e 207b294e
+Author: dawlat-netlinks <dawlatzai@netlinks.ws>
+Date:   Thu Jan 25 08:31:28 2018 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-website
+
+[33mcommit 207b294e44f31f6e0fb4c6b57c14c4a639f47f0d[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Jan 24 18:35:20 2018 +0430
+
+    remove authorizedHttp and used HttpClient instead
+
+[33mcommit d4ac1311e16776a517344926ce290baf1fa4e07e[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Jan 24 16:55:53 2018 +0430
+
+    Enhance authorization and authentication of admin module
+
+[33mcommit f5dc813d1e5b9e51ab051bc81dda23fb5bba5335[m
+Author: Matiullah Karimi <karimi@netlinks.ws>
+Date:   Wed Jan 24 16:26:28 2018 +0430
+
+    Fix some issues
+
+[33mcommit a016ca8ef5295880ff09db683cf973c8a9d674a6[m
+Author: dawlat-netlinks <dawlatzai@netlinks.ws>
+Date:   Wed Jan 24 16:09:37 2018 +0430
+
+    fix employer links
+
+[33mcommit 2968e84a66694139b63c1b7cf3909bde2b99f23d[m
+Merge: fdc05c10 e7c9d2d5
+Author: dawlat-netlinks <dawlatzai@netlinks.ws>
+Date:   Wed Jan 24 14:19:11 2018 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-website
+
+[33mcommit fdc05c10af6de22f271cc4af87aad0308715ce0d[m
+Author: dawlat-netlinks <dawlatzai@netlinks.ws>
+Date:   Wed Jan 24 14:18:58 2018 +0430
+
+    Fix employer route
+
+[33mcommit 516158c799da23785b2df102e3a01684c1f4904a[m
+Merge: 2a6c0428 e7c9d2d5
+Author: behishta-netlinks <behishta@netlinks.ws>
+Date:   Wed Jan 24 14:16:42 2018 +0430
+
+    Resolved conflicts
+
+[33mcommit 2a6c0428487210c90a6d011e8f351c2e7b65f6ac[m
+Author: behishta-netlinks <behishta@netlinks.ws>
+Date:   Wed Jan 24 14:03:37 2018 +0430
+
+    Modify sweet alert functionality
+
+[33mcommit e7c9d2d5f09721775c482889c02550eafe573dbe[m
+Merge: 7da9836d ab8c65a9
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Jan 24 13:59:51 2018 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-website
+
+[33mcommit ab8c65a9ddc21894bd5d964f7fbcf28c010cfc9a[m
+Merge: bfcc7d9a 6452f423
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Jan 24 13:59:22 2018 +0430
+
+    Merge pull request #376 from sadaf-netlinks/master
+    
+    Fix mobile view issues in admin panel
+
+[33mcommit 7da9836d914b44136041493c48a0d3b6366f0c08[m
+Merge: 26b4bdae bfcc7d9a
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Jan 24 13:58:53 2018 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-website
+
+[33mcommit 26b4bdaee8caf00b07669c3ace11e070e165fd3a[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Jan 24 13:58:18 2018 +0430
+
+    Implement http client into admin
+
+[33mcommit bfcc7d9aca1bc04acaabc3c1dd19e9a6af8b0b4d[m
+Author: Matiullah Karimi <karimi@netlinks.ws>
+Date:   Wed Jan 24 11:13:36 2018 +0430
+
+    Fix some routing and desgin issues
+
+[33mcommit b337ec015c319180797b3f244a2a4ae365ff1f56[m
+Merge: 9a44599c 651f7704
+Author: dawlat-netlinks <dawlatzai@netlinks.ws>
+Date:   Wed Jan 24 10:39:43 2018 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-website
+
+[33mcommit 9a44599c67d9f1e0bcbf523ce77ab1bf50c64a78[m
+Author: dawlat-netlinks <dawlatzai@netlinks.ws>
+Date:   Wed Jan 24 10:38:47 2018 +0430
+
+    Fix qmployer links
+
+[33mcommit 6452f423caef255c0e711b5d399a576b647b7988[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Jan 24 10:21:56 2018 +0430
+
+    Add feedback api validation and change add function
+
+[33mcommit d5d23a454be960bc9638b1bdf9c7eb9ef4039f6a[m
+Merge: 6123f469 651f7704
+Author: Matiullah Karimi <karimi@netlinks.ws>
+Date:   Wed Jan 24 09:02:59 2018 +0430
+
+    Fix routing issue
+
+[33mcommit 6123f469319470fcf6c99bb582e8f719418b3e5d[m
+Author: Matiullah Karimi <karimi@netlinks.ws>
+Date:   Wed Jan 24 08:50:38 2018 +0430
+
+    Fix some routing issues
+
+[33mcommit 0d6ae4438b308e5ab449cde8732f8a8c0020baf3[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Jan 23 16:16:25 2018 +0430
+
+    Fix mobile view issues in admin panel
+
+[33mcommit 651f77040aee9b02be2ae4de5e07295edc2e1a97[m
+Merge: b02244c1 7a420021
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Jan 23 15:54:24 2018 +0430
+
+    Merge pull request #375 from sadaf-netlinks/master
+    
+    Add /admin to routes
+
+[33mcommit 7a4200213fb674d108722455c7907d7d9c3a3144[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Jan 23 15:49:45 2018 +0430
+
+    Add /admin to routes
+
+[33mcommit b02244c1955c038668e63e0951eee387db0c1760[m
+Merge: aabd592e 5d6a3e8e
+Author: Matiullah Karimi <karimi@netlinks.ws>
+Date:   Tue Jan 23 15:19:05 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-website
+
+[33mcommit aabd592eaa3fa2b004fab06caa85727c51937f25[m
+Author: Matiullah Karimi <karimi@netlinks.ws>
+Date:   Tue Jan 23 15:18:29 2018 +0430
+
+    Fix some issues in talent search
+
+[33mcommit 5d6a3e8ebb824a9bb5cf9c4ab885655b4e85ba46[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Jan 23 14:27:56 2018 +0430
+
+    Enhance login code
+
+[33mcommit aada46ea476e5b236df7f9a2047eb81752e46676[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Jan 22 21:09:28 2018 +0430
+
+    Fix redirect issue
+
+[33mcommit 9bb4c9415e20b95d6a9d0a21fe9408c138ce31d1[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Jan 22 19:11:30 2018 +0430
+
+    Add employer enhanced code
+
+[33mcommit 200f2bf87ea5473781ebe7d07446185ad75acb4f[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Jan 22 18:50:50 2018 +0430
+
+    Add admin enhanced code
+
+[33mcommit ef026b544123cef54d292b0315fea2e1fefda710[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Jan 22 16:30:50 2018 +0430
+
+    Add website
+
+[33mcommit 3c0c55703dbdc22dc521623370cd9779f6701f62[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 21 16:00:21 2018 +0430
+
+    Add employer as module
+
+[33mcommit aecb35439f9151a0f4effc0fc01eb7203cbf0025[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 21 14:22:59 2018 +0430
+
+    make admin-panel as angular module
+
+[33mcommit 0a7f650a2a4c9edd8c918785ae8524085ddbab23[m
+Merge: 4d57950e 74955e50
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 21 11:17:48 2018 +0430
+
+    Merge pull request #209 from sadaf-netlinks/master
+    
+    Add api validation and add changes on company statement
+
+[33mcommit 4d57950efb9c3201b6581b11ab0e5e6870b35d52[m
+Author: mobasher <mobasher@netlinks.af>
+Date:   Sat Jan 20 16:25:23 2018 +0430
+
+    Change edit package design
+
+[33mcommit d9024a8c5f2d0e3b2ac1432430dae17d2f6cf128[m
+Author: mobasher <mobasher@netlinks.af>
+Date:   Sat Jan 20 14:52:54 2018 +0430
+
+    Fix add bank account design issue
+
+[33mcommit 5ece785c1420f3ef41e90092ad95d317bd8cb3a7[m
+Merge: e3e636ed a0916004
+Author: mobasher <mobasher@netlinks.af>
+Date:   Sat Jan 20 13:13:30 2018 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit e3e636ed34bd2307dafa2cc39424d32458416540[m
+Author: mobasher <mobasher@netlinks.af>
+Date:   Sat Jan 20 13:13:19 2018 +0430
+
+    Change two same component (jobPosting and resumeSearch packages components) to one component, and solve their edit and design issue
+
+[33mcommit a09160043bbe85a5943983101aacc7d4a5732a32[m
+Author: Hamed Mehryar <hamed.cs@gmail.com>
+Date:   Sat Jan 20 13:03:22 2018 +0430
+
+    Set alias for response class
+
+[33mcommit 74955e5089374ac04f030f4208f440e063a14d50[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Jan 18 11:41:39 2018 +0430
+
+    Add api validataion and add changes on company statement
+
+[33mcommit ebe6602d5bbffd6dc2685e70f0e4c34ef84008af[m
+Merge: be695eb0 cc92fad6
+Author: mobasher <mobasher@netlinks.af>
+Date:   Wed Jan 17 15:29:39 2018 +0430
+
+    Resolve conflict
+
+[33mcommit cc92fad628c95a611d8b82e6073e15c43d11944c[m
+Merge: ec678140 203f3b01
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Jan 17 14:30:29 2018 +0430
+
+    Merge pull request #208 from sadaf-netlinks/master
+    
+    Fix sidebar design issues
+
+[33mcommit 203f3b0101a330d1ba6f1a3323bb57fdcf375e1a[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Jan 17 14:23:20 2018 +0430
+
+    Fix sidebar design issues
+
+[33mcommit be695eb0091db843bee6254bcc8a0550c7fe27b9[m
+Author: mobasher <mobasher@netlinks.af>
+Date:   Wed Jan 17 14:14:23 2018 +0430
+
+    Fix Job posting package view design issue, add Edit component, and solve validation problems
+
+[33mcommit ec6781403c8cff6b15309ca66fcbea173dc1ce5f[m
+Merge: bf4afebb f7ec0fad
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Jan 17 11:19:39 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-admin
+
+[33mcommit bf4afebb1a02e395c2e58105fa3e95552dc84ac2[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Jan 17 11:19:25 2018 +0430
+
+    Change Parchas History -> Credit History
+
+[33mcommit f7ec0fad46de4de66f974416f1e2cc58079e6844[m
+Merge: acdf0b47 6c962471
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Jan 16 11:53:46 2018 +0430
+
+    Merge pull request #205 from sadaf-netlinks/master
+    
+    Add some changes on design
+
+[33mcommit 6c962471e7263780d0e4b00c5e2fdad14a6d7ea2[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Jan 16 11:43:32 2018 +0430
+
+    Add some changes on design
+
+[33mcommit acdf0b470e9fd3b0ca9ad74b504e52c7560fa5c7[m
+Merge: d898b0ae ae34ada3
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Jan 15 15:55:11 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-admin
+
+[33mcommit d898b0ae551c7c6a2f0b9dd1ea0a34881fbafaf8[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Jan 15 15:52:53 2018 +0430
+
+    Remove profile visibality and profile status form admin list
+
+[33mcommit ae34ada321f40b30d8e197773d2bf53679815924[m
+Merge: a141665f 89b016c7
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Jan 15 14:46:57 2018 +0430
+
+    Merge pull request #199 from sadaf-netlinks/master
+    
+    Change color of selected menu
+
+[33mcommit 89b016c70e677526ab2b01e83d70d20f62a7e967[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Mon Jan 15 14:44:49 2018 +0430
+
+    Change color of selected menu
+
+[33mcommit a141665f8bf09147f73d34e783f0275e84d5f7e9[m
+Merge: 72cf0337 81e6976f
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Jan 15 14:12:28 2018 +0430
+
+    Merge pull request #198 from sadaf-netlinks/master
+    
+    Remove security/notification settings and add change password api validation
+
+[33mcommit 81e6976f1a1e1d424be5348256412d3251c9fc2c[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Mon Jan 15 14:04:17 2018 +0430
+
+    Remove security/notification settings and add change password validation
+
+[33mcommit 72cf033785e6b13a347077f7f33884bc6188c481[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Jan 15 11:15:28 2018 +0430
+
+    Fix company status icon issue
+
+[33mcommit 90bfdf45f31449ce493848cab2c523b86ef2cc2d[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Jan 15 09:59:56 2018 +0430
+
+    Fix guard issue
+
+[33mcommit fd438faa93684917640828a1d515553160588969[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Jan 15 09:39:46 2018 +0430
+
+    Remove ads management tab
+
+[33mcommit 8f157aab9fa2821c8d0a6698751593b73e28eaef[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Jan 15 09:18:41 2018 +0430
+
+    Fix UX empty table issue in packages
+
+[33mcommit 50969d929e6cd11ee654bae24725de5b11277197[m
+Merge: 7b6d5864 cadc46b4
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 14 17:26:35 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-admin
+
+[33mcommit cadc46b4d7888dc5d42e48a028b98024d1b7128e[m
+Merge: adace3fb 514e2027
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 14 17:26:01 2018 +0430
+
+    Merge pull request #196 from sadaf-netlinks/master
+    
+    Fix search time issue
+
+[33mcommit 7b6d586428c406747dd4a56b8c876d25519cefa8[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 14 17:25:03 2018 +0430
+
+    Fix employer package issue
+
+[33mcommit 514e2027e3ee8e2568107c4f9002db573ef1d34e[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Jan 14 16:19:24 2018 +0430
+
+    Add tooltip to delete and block of session and trusted device
+
+[33mcommit 771caac6bb28734f3ddb8b4157741d85c4a41da7[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Jan 14 16:10:32 2018 +0430
+
+    Fix search time issue
+
+[33mcommit adace3fb6d95065853da5861d3796e1684021426[m
+Merge: 3633bc1a 74619b1d
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 14 16:09:22 2018 +0430
+
+    Merge pull request #195 from sadaf-netlinks/master
+    
+    Fix feedback search issues
+
+[33mcommit 74619b1db3412c95f35aff1e1ae5ed3a09552037[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Jan 14 15:25:47 2018 +0430
+
+    Remove br from phone and email form
+
+[33mcommit 97ad0ff6cf9081b4158ed8689008ee94fd908425[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Jan 14 15:16:22 2018 +0430
+
+    Fix feedback search issues
+
+[33mcommit 3633bc1a8fd7d2efa6eb70cdeb716e7a4d6156af[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 14 13:08:58 2018 +0430
+
+    Fix empty table issue in employer package
+
+[33mcommit b6fcf586172e32c5363aa52ffcf133167b17362d[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 14 11:09:56 2018 +0430
+
+    Fix typo error
+
+[33mcommit c6a0b1578bfcaa12e9f7b9df87ed9ea81057742b[m
+Merge: 5b08bac6 8a0763c0
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 14 10:56:54 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-admin
+
+[33mcommit 5b08bac6198f416356d1695a92341c7d2a85b896[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 14 10:56:43 2018 +0430
+
+    Fix invoice issue
+
+[33mcommit 8a0763c0e6caba0d5499fdfd202ad79d9173ff60[m
+Merge: ecab9603 4d6da341
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 14 10:06:41 2018 +0430
+
+    Merge pull request #194 from sadaf-netlinks/master
+    
+     Change notification setting from inapp/offline and hide add phone-email buttons
+
+[33mcommit 4d6da3418139f67c2e90b4a1c784e53bb7e6746a[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sat Jan 13 21:56:26 2018 +0430
+
+    Change notification setting from inapp-offline and hide add phone-email button
+
+[33mcommit 3194168a4aa47442d85a3e9f9273033d69f15527[m
+Merge: e0d1e733 ecab9603
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Jan 13 16:23:35 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-admin
+
+[33mcommit ecab9603b7b7b9f6cbe863a993acafb39bf86fe1[m
+Merge: a2cce140 aff7d580
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Jan 13 16:23:19 2018 +0430
+
+    Merge pull request #192 from sadaf-netlinks/master
+    
+    Refactor reported resource actions and codes
+
+[33mcommit e0d1e7339aadc7b2d0775d394f0be7aaf18c5470[m
+Merge: 392667c9 a2cce140
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Jan 13 16:17:45 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-admin
+
+[33mcommit 392667c998fb51c0df9dba2984450deb8a043042[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Jan 13 16:14:16 2018 +0430
+
+    Add invoices with filter
+
+[33mcommit 3a641d7bc88f7f2089c41691387fd1d17940230d[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Jan 13 11:14:43 2018 +0430
+
+    Add due date to invoice
+
+[33mcommit a2cce140f31001bd5ec046c6a584db0aee629256[m
+Author: mobasher <mobasher@netlinks.af>
+Date:   Thu Jan 11 12:01:00 2018 +0430
+
+    Fix jobPosting package design issue
+
+[33mcommit 9c6d81e795c52f7d80dac8948f4bee793372325c[m
+Merge: aff7d580 821b34ea
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Jan 11 11:48:43 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-admin
+
+[33mcommit aff7d5802b9dd9ee47261bda13403ed2a0654668[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Jan 11 11:36:13 2018 +0430
+
+    Refacor reported resource codes
+
+[33mcommit 9d75ae3efde15306a1c945e05c3ef9fb57a8251f[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Jan 11 11:29:42 2018 +0430
+
+    Fix jobs route issue
+
+[33mcommit e4c4a328ab3a344211b35c4c948739712620526f[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Jan 11 10:08:18 2018 +0430
+
+    Group package by type
+
+[33mcommit 9b84ff2dde346e582b9e7f7e6b3ab961bf0c5d0d[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Jan 10 10:38:58 2018 +0430
+
+    UX issue in jobs list
+
+[33mcommit 0108f5102eeeda5de6880d9ebfabea848bf40c57[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Jan 10 09:46:16 2018 +0430
+
+    Fix redirect issue on companies list
+
+[33mcommit d7f77833b5095a586e1f614865b5617282fdcf18[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Jan 10 09:29:19 2018 +0430
+
+    Enhance company list alert message
+
+[33mcommit 821b34eac12024697467f0cadcf7b54af56de8fd[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Jan 10 04:18:50 2018 +0430
+
+    specify view route by userType
+
+[33mcommit 552c2dcdd3b68edf0aecee38898ce9be9a2780d7[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Jan 10 04:00:36 2018 +0430
+
+    Ehance employer profile
+
+[33mcommit d42cf4fc92b779c613621db00e5bda729e1b5182[m
+Merge: 1e1bb5ac 5bc810dd
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Jan 10 03:37:35 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-admin
+
+[33mcommit 5bc810dd8f4892f8a6ea98ed881aed9227783d7f[m
+Merge: 1db0d703 f8c301ac
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Jan 10 03:37:10 2018 +0430
+
+    Merge pull request #187 from sadaf-netlinks/master
+    
+    Change modal view design
+
+[33mcommit f8c301ac8dbe474ecb3f7b83b26ad8792634d31a[m
+Merge: cc461385 1db0d703
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Jan 10 03:36:56 2018 +0430
+
+    Merge branch 'master' into master
+
+[33mcommit cc461385fd960c848700261091aefec8f4d91930[m
+Merge: 46b74737 1db0d703
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Jan 10 03:32:55 2018 +0430
+
+    Merge branch 'master' into master
+
+[33mcommit 1e1bb5aca8346b37f768b444cc4daac03be8c83f[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Jan 10 03:12:40 2018 +0430
+
+    Fix edit company issue and add validator
+
+[33mcommit a03262f255eb7ffb2bde63fc3f572e14bba46e64[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Jan 9 23:33:40 2018 +0430
+
+    view to company profile if user is employer
+
+[33mcommit ef386d18d0925fc1e25be6e686a616f53456fff3[m
+Merge: 3441de27 1db0d703
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Jan 9 23:12:19 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-admin
+
+[33mcommit 3441de273d75eb27cddd3e45c1493d978a53609f[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Jan 9 23:08:50 2018 +0430
+
+    Add employer company
+
+[33mcommit 1db0d7036e1e48d2fcf1da5d20721e847f0d9c35[m
+Author: mobasher <mobasher@netlinks.af>
+Date:   Tue Jan 9 21:39:16 2018 +0430
+
+    Fix exchange rate issue and add server side validation
+
+[33mcommit 39f89da55f2194493521b841b06d1b3c8f99275c[m
+Merge: 277c76fd b7721e9e
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Jan 9 19:47:21 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-admin
+
+[33mcommit 46b74737bc3398a3dc6fa81bba33b70240b2f1d0[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Jan 9 13:23:05 2018 +0430
+
+    Cange modal view design
+
+[33mcommit b7721e9ee18163a0d8944588d4d3bee68ff158bc[m
+Merge: 0b0993fb 86b494ae
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Jan 9 11:39:30 2018 +0430
+
+    Merge pull request #186 from sadaf-netlinks/master
+    
+    Catch errors in master data and remove modal lg
+
+[33mcommit 277c76fd806aef50742ac95003090535a8c91e9b[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Jan 9 11:35:22 2018 +0430
+
+    Enhance add credit on employer
+
+[33mcommit ca95119384602b5b545c4e326718f9b45ad5a47d[m
+Merge: 86b494ae 0b0993fb
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Jan 9 08:54:26 2018 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-admin
+
+[33mcommit 86b494ae47606595a355f833ff237e71ce682033[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Mon Jan 8 21:20:24 2018 +0430
+
+    Catch errors in master data and remove modal lg
+
+[33mcommit 0b0993fbbdb19e445ab131efe61eba4daecd6de6[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Jan 8 14:28:26 2018 +0430
+
+    Remove usertype while login
+
+[33mcommit a931e26675b4ffddbf5cefb45c6e4292d0ef73e7[m
+Merge: 2d30973c 7a950386
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 7 20:56:42 2018 -0800
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-admin
+
+[33mcommit 7a9503869e43fd5e3d864e20bc3e67898a3b5484[m
+Merge: 84d2502c 7c46fa76
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 7 20:44:21 2018 -0800
+
+    Merge pull request #183 from sadaf-netlinks/master
+    
+    Add api validation to master data
+
+[33mcommit 2d30973c94f527a4b1cea0dae093798833c197d8[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 7 11:21:49 2018 -0800
+
+    Enhance user module and handle session block
+
+[33mcommit 7c46fa766fc3430c70ca7de5cdf95bedc77bed79[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Jan 7 22:38:55 2018 +0430
+
+    Add api validation to master
+
+[33mcommit 84d2502c661a6857e2a1d84db54fd6076fb8a7da[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 7 03:52:15 2018 -0800
+
+    Fix exchange rate issue
+
+[33mcommit e4ef40a17d5ea9a3bf1fa95184660a8fefbde202[m
+Merge: 5193f4a1 c03efdc5
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 7 00:30:11 2018 -0800
+
+    Merge pull request #182 from sadaf-netlinks/master
+    
+    Remove comments from general search files
+
+[33mcommit 5193f4a1eab71ceea14a4fdb6bb840c7d8631b60[m
+Merge: aa29df1f 9f090ed1
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 7 00:04:41 2018 -0800
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-admin
+
+[33mcommit aa29df1fe526ad688d24c2404081efd883f45967[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Jan 7 00:01:30 2018 -0800
+
+    Remove objective and summary from user
+
+[33mcommit 8ee843c9f156fe42aba55c1116f4539934c67d0a[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Jan 6 22:39:16 2018 -0800
+
+    Emplement server side validation on login page
+
+[33mcommit c03efdc52e4e8088e9ec5c8308f88dfcc73c26a2[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sat Jan 6 14:53:51 2018 +0430
+
+    Remove comments from general search files
+
+[33mcommit 9f090ed1dc51a4fb4ea93e20a786bea978bcfca4[m
+Merge: 16c64f0d eb3999b6
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Jan 6 01:09:48 2018 -0800
+
+    Merge pull request #181 from sadaf-netlinks/master
+    
+    Remove bank account delete and edit from deactivated tabs
+
+[33mcommit eb3999b685c269a980a93b7cc941a6ceed218aca[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sat Jan 6 13:30:53 2018 +0430
+
+    Remove bank account delete and edit from deactivated tabs
+
+[33mcommit 16c64f0dcaa04e914cf7a15d564b90961757b787[m
+Merge: bf62d320 02d39dbc
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Jan 6 00:56:09 2018 -0800
+
+    Merge pull request #180 from sadaf-netlinks/master
+    
+    Refactor bank account codes and add api validation to it
+
+[33mcommit 02d39dbc5718638fed5728e6aceee7a211c23afe[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sat Jan 6 11:41:55 2018 +0430
+
+    Add bank account api validation
+
+[33mcommit 2b8ddb3d98c0f05f6ec3319c9ac7cc17c875fee6[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Jan 4 12:25:58 2018 +0430
+
+    Add success messages to bank account
+
+[33mcommit fceccccb2c6ad8406fcd17e4938c7c0ec242254e[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Jan 4 11:03:31 2018 +0430
+
+    Refacor bank account codes
+
+[33mcommit bf62d3200816ba538755152275d3486bf5be02a5[m
+Merge: 95a9d6ec 93421d60
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Jan 3 22:25:03 2018 -0800
+
+    Merge pull request #179 from sadaf-netlinks/master
+    
+    Add suspend user route and remove id and token with filter
+
+[33mcommit 93421d60e248365ac81e949f1f4308fe82eba986[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Jan 3 22:56:41 2018 +0430
+
+    Add suspend user route and remove id and token with filter
+
+[33mcommit 95a9d6ece90dc527a5c2737a16692bbc360fc85c[m
+Merge: 44df6ea1 44226388
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Jan 2 11:48:58 2018 +0430
+
+    Merge pull request #178 from sadaf-netlinks/master
+    
+    Change user id to get it from payload id
+
+[33mcommit 44226388ac5b1590bd8773d10df64c15d432874e[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Jan 2 11:45:01 2018 +0430
+
+    Change user id to payload id
+
+[33mcommit 44df6ea105441b2e560995af70910993affb15fc[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Jan 2 10:46:08 2018 +0430
+
+    Remove dubplication observable
+
+[33mcommit a30e5754e0957d005dbaa921931e6b461f793393[m
+Merge: 0080422b 34b512f4
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Jan 2 10:45:47 2018 +0430
+
+    Resolve conflict on menu.ts
+
+[33mcommit 34b512f4f6d08c94e11386350929182600d01e24[m
+Merge: da17bd44 1dfec090
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Jan 2 10:38:13 2018 +0430
+
+    Merge pull request #177 from sadaf-netlinks/master
+    
+    Change session blockedAt
+
+[33mcommit 0080422bf1c1f4efd854179b4040e3251b257e11[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Jan 2 10:37:08 2018 +0430
+
+    Show employer credit and resume search feature
+
+[33mcommit 7be7b54f6ec92afb462fe1798944bdadbca8e970[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Jan 2 09:34:11 2018 +0430
+
+    Enhance infterface
+
+[33mcommit da17bd446d7ed7f932500d810cc1cec6ef6de6d6[m
+Merge: de95c3b5 7b0e49e1
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Dec 31 19:39:48 2017 +0430
+
+    Merge pull request #170 from matiullah-netlinks/master
+    
+    Add live chat
+
+[33mcommit 1dfec0900a508dd99368f74fe3f5db1492d5102b[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Dec 31 10:21:08 2017 +0430
+
+    Change session blockedAt
+
+[33mcommit de95c3b5fde7b1c138067cfb4ef6f92b0e559c9d[m
+Merge: 0e1eea6f c31882e0
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Dec 31 09:58:06 2017 +0430
+
+    Merge pull request #176 from sadaf-netlinks/master
+    
+    Fix modal open issue and change resource view and warning to moda
+
+[33mcommit c31882e0e7d1b716d6d90114f8ca329ef926755e[m
+Merge: 5dcc8a42 0e1eea6f
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Dec 31 09:56:26 2017 +0430
+
+    Resolve conflicts
+
+[33mcommit 5dcc8a42a5f02d6a57131dcdeeccc69968ee33cb[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Dec 31 09:41:46 2017 +0430
+
+    handle errors of warn modal file
+
+[33mcommit b001119b2ad486c07b828e96699029215594f69b[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Dec 31 09:23:09 2017 +0430
+
+    Change active session file
+
+[33mcommit 64db52a81bd4ba0d052437156e36fb7222cbc39b[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sat Dec 30 22:10:09 2017 +0430
+
+    Fix Opening modal issue
+
+[33mcommit d3f5057d58136a6951ca252b592699e98253f798[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sat Dec 30 21:23:11 2017 +0430
+
+    Change reported resource view and warning to modal
+
+[33mcommit dc076cea52cae941db1f7ab5d9abc64b9a45586d[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Dec 30 15:22:24 2017 +0430
+
+    Enhace company profile
+
+[33mcommit cf2a37b10de86faf75832b6b409251b36909ce37[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Dec 30 11:44:48 2017 +0430
+
+    enhance menu sidebar
+
+[33mcommit 7b0e49e120231b346d24c113d4e6d18dba0a4826[m
+Author: matiullah karimi <matiullah.karimi@gmail.com>
+Date:   Sat Dec 30 11:14:14 2017 +0430
+
+    Add settings button
+
+[33mcommit f83ae76fa0a9e7762f4e154fbe902a7b72e6a33f[m
+Merge: 87df5124 031b3cdb
+Author: matiullah karimi <matiullah.karimi@gmail.com>
+Date:   Sat Dec 30 10:23:15 2017 +0430
+
+    Merge branch 'master' of github.com:matiullah-netlinks/jobsaf-admin
+
+[33mcommit 87df51248150ccc0c63f4c2f6e61930d50332a60[m
+Author: matiullah karimi <matiullah.karimi@gmail.com>
+Date:   Sat Dec 30 10:21:49 2017 +0430
+
+    Use unautorized helper and add share method
+
+[33mcommit 031b3cdb905bf845cbcf9e95f25af04bd4868e67[m
+Merge: ca43e735 0e1eea6f
+Author: Matiullah Karimi <karimi@netlinks.ws>
+Date:   Sat Dec 30 10:13:45 2017 +0430
+
+    Merge branch 'master' into master
+
+[33mcommit ad4deefb464099d9c67c4b083d6ad15e6558aba7[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Dec 30 10:12:56 2017 +0430
+
+    Enhance bank route text
+
+[33mcommit 0e1eea6f66c9391920a7e21d74e5e73cf5d7d9ab[m
+Merge: 5819ddfb 5a6dbdfa
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Dec 30 09:59:28 2017 +0430
+
+    Merge pull request #174 from sadaf-netlinks/master
+    
+    Add modal for bank account add, edit and view
+
+[33mcommit 5819ddfb46651d42d8b30addd19ac2b2ea4b033c[m
+Merge: 22fde58a 6b4dcfe7
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Dec 30 09:58:27 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit 22fde58a042fa1fa793938f3396f1a4aa887a908[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Dec 30 09:55:37 2017 +0430
+
+    fix issue 140
+
+[33mcommit 7a4c5a278f8d229c085640ffec2354337982c310[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Dec 30 09:21:10 2017 +0430
+
+    Enhace package list
+
+[33mcommit 5a6dbdfa4173ef077342d630a1e2661d07e931c4[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Dec 28 13:31:15 2017 +0430
+
+    Add modal for bank account add, edit and view
+
+[33mcommit 6b4dcfe791dd35946dc6089f96cfe2748b20c214[m
+Merge: 50262fc0 8ff3117e
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Dec 28 09:43:21 2017 +0430
+
+    Merge pull request #173 from sadaf-netlinks/master
+    
+    Fix general search some bugs
+
+[33mcommit 8ff3117edd8267493db2ebbf397de54558830bba[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Dec 28 09:02:57 2017 +0430
+
+    Feedback label
+
+[33mcommit c3d6e04a5d24f49b6dd622396f3bc55fab262612[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Dec 28 08:57:53 2017 +0430
+
+    Fix general search some bugs
+
+[33mcommit ca43e7352dd3bdbd468e42014da1a3c9dc043003[m
+Merge: e89b0ddb 50262fc0
+Author: matiullah karimi <matiullah.karimi@gmail.com>
+Date:   Wed Dec 27 15:57:59 2017 +0430
+
+    Resolve conflicts
+
+[33mcommit e89b0ddbee57efec3d297f1a2e8521f05e3aef26[m
+Author: matiullah karimi <matiullah.karimi@gmail.com>
+Date:   Wed Dec 27 15:49:48 2017 +0430
+
+    Handle errors
+
+[33mcommit 50262fc0220298a1112f6346e8bd58eaa905fe43[m
+Merge: b0f739bc 7c3427b5
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Dec 27 14:34:04 2017 +0430
+
+    Merge pull request #169 from sadaf-netlinks/master
+    
+    Fix some design issues
+
+[33mcommit 29472a0818c43d76a4e6b090dbe76506accc61b7[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Dec 27 14:19:55 2017 +0430
+
+    Fix usr package issue
+
+[33mcommit 9614693f4944000623498dd4ebf9a10364a4e7d3[m
+Author: matiullah karimi <matiullah.karimi@gmail.com>
+Date:   Wed Dec 27 13:52:35 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit 7c3427b5d88825898b4706742b2277f5834d3105[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Dec 27 13:42:17 2017 +0430
+
+    Fix some design issues
+
+[33mcommit b0f739bc27039ba82b8a4de24b8008479237bf2d[m
+Merge: a0fa26f8 a9cccaa0
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Dec 27 09:12:47 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit a9cccaa038b8a9d624d7c18af1868382417d6ef0[m
+Merge: 68fef5ac bfb881f2
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Dec 27 09:11:40 2017 +0430
+
+    Merge pull request #167 from sadaf-netlinks/master
+    
+     Fix feedback and trusted device design issues
+
+[33mcommit bfb881f2612ce36ecd9ae1031aaec77c1993e01c[m
+Merge: 84de8ebf 68fef5ac
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Dec 27 09:03:10 2017 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-admin
+
+[33mcommit 84de8ebf5059378db5552702ccad12bf540842d1[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Dec 26 23:26:16 2017 +0430
+
+    Change routes to kebab case
+
+[33mcommit a0fa26f8ec05c373457738b2ff6a49fe8c1c4a53[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Dec 26 21:29:52 2017 +0430
+
+    Enhance company laction
+
+[33mcommit d80632bb6daca09cc7e0c0b9e589f0f7bd46eee0[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Dec 26 21:19:41 2017 +0430
+
+    remove is verified from employer list
+
+[33mcommit 68fef5ac3b4617ea3ac1ce5337aa202247578be5[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Dec 26 15:48:55 2017 +0430
+
+    fix empty profil issue
+
+[33mcommit a3e2188a16d3071c4050610d42907287700347e6[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Dec 26 15:37:07 2017 +0430
+
+    Fix jobs default tab issue
+
+[33mcommit d4d22eda969718ddf340f1f5c6dca528b8444fe3[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Dec 26 14:46:32 2017 +0430
+
+    Fix no data issue in session
+
+[33mcommit cc3d2ab93f9e80b97cf69c8722d98f2d5e2975d8[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Dec 26 14:29:29 2017 +0430
+
+    fix session type issue
+
+[33mcommit 2e0acf7af66280fb18d26ebd033d47e012a6d964[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Dec 26 14:28:54 2017 +0430
+
+    Fix session issue
+
+[33mcommit 943b88bab2d63ab6cbfd8dbeb648b9bd38522bd6[m
+Merge: 63a16c2b c3ef96f9
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Mon Dec 25 16:16:36 2017 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-admin
+
+[33mcommit c3ef96f9f7139a913e49828785c1245f097abe82[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Dec 25 15:59:53 2017 +0430
+
+    Fix show employer bread-crump issue
+
+[33mcommit d746cee5a756c0487fb54bb7ccb19452096423ce[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Dec 25 15:45:53 2017 +0430
+
+    Enhance menu issue
+
+[33mcommit 63a16c2b3b0f4b62bf3cdb2c9377689f9a254351[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Mon Dec 25 15:07:30 2017 +0430
+
+    Fix feedback and trusted device design issues
+
+[33mcommit 159d61e62d9f0f708a252bb25aa236cd895ac466[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Dec 25 12:15:42 2017 +0430
+
+    Fix typo error
+
+[33mcommit 0dae314e1766ff5a7fe77e048632b36c27477243[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Dec 25 12:08:21 2017 +0430
+
+    Fix session log, no records found, and toast message issue
+
+[33mcommit dff232fb8dba59db6198915b7ae3e4247eb8eb3d[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Dec 25 11:21:55 2017 +0430
+
+    fix add credit issue
+
+[33mcommit 3caba53512e15004fda24256a05c21e5c15ef8f0[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Dec 25 11:10:30 2017 +0430
+
+    change subscription routs to transactions
+
+[33mcommit b19242694fa484580ef4273e2e0f28ecfad0ba2c[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Dec 25 10:49:05 2017 +0430
+
+    Order menu according to usage
+
+[33mcommit 2268e1647337c038a4415612558f03998b984646[m
+Merge: 94ad363e ad6df082
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Dec 25 10:12:10 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit 94ad363e887e810fd05a33a47e596462aaeeece7[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Dec 25 10:11:04 2017 +0430
+
+    Show profile details of user is job-seeker
+
+[33mcommit ad6df082fb3a0478e3e7689d3a42611a2a945c3b[m
+Merge: 734dce3c 7fb342c1
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Dec 25 09:40:23 2017 +0430
+
+    Merge pull request #166 from sadaf-netlinks/master
+    
+    Add bank account logo
+
+[33mcommit 5670aaa3b77265e0a74212dd6bafedb638a2ec73[m
+Merge: 7fb342c1 734dce3c
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Mon Dec 25 09:38:15 2017 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-admin
+
+[33mcommit e60063edae69bbe1dc0033782bd24b09cf7ab49f[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Dec 25 09:31:40 2017 +0430
+
+    Fix edit issue and employer company status
+
+[33mcommit 7e1938d3161dd2d2ff90adabd28b50051f3576d6[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Dec 25 09:13:25 2017 +0430
+
+    Add edit link on company list
+
+[33mcommit 34972891c24dd211c62f7886b4446372f59c86bb[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Dec 24 23:02:46 2017 +0430
+
+    fix edit company issue
+
+[33mcommit 7fb342c107d78affc7a3c0b84386267658e5787b[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Dec 24 22:57:30 2017 +0430
+
+    Add bank account logo
+
+[33mcommit 3c0d3cc626610da1084644655346ca92937ec145[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Dec 24 16:27:48 2017 +0430
+
+    Fix typo error in company module
+
+[33mcommit 99ecf5106a60a94ea1382be8d1400d10d56afaf9[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Dec 24 16:27:12 2017 +0430
+
+    Implement error handling in company module
+
+[33mcommit 426ac5e042f7cc48c10cbf8d2737bf6a1afea976[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Dec 24 16:24:37 2017 +0430
+
+    Company records not found
+
+[33mcommit 066b057cf1ee63edf1be63e9772dfb0cbc8eaf89[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Dec 24 16:13:21 2017 +0430
+
+    Add rejected feature for companies
+
+[33mcommit 6a53b1ee0e6f717bf87495cf94ee8a8a87a21a94[m
+Merge: 9b874b6f 734dce3c
+Author: matiullah karimi <matiullah.karimi@gmail.com>
+Date:   Sun Dec 24 10:55:54 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit 734dce3c3fb83a9b2a98e78a1adcdef7b910522f[m
+Merge: 84b98fc3 c09fae1d
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Dec 24 10:33:38 2017 +0430
+
+    Merge pull request #157 from sadaf-netlinks/master
+    
+    Fix some issues
+
+[33mcommit c09fae1db0225e85fd68c0c44d7d61a3eb542df6[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Dec 24 10:18:20 2017 +0430
+
+    Change bank accounts view
+
+[33mcommit 2ee7d5d54205193c58be34543f0df517026534a8[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Dec 24 10:02:56 2017 +0430
+
+    Fix some issues
+
+[33mcommit 84b98fc3a3f7cd79cf1323c32304ec19d3c395f7[m
+Merge: 0911e140 6c1d38e4
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Dec 24 09:39:36 2017 +0430
+
+    Merge pull request #156 from sadaf-netlinks/master
+    
+    Remove server error message on master data approval
+
+[33mcommit 6c1d38e46f1c0bcdf454c39f030fe5e86fa43c90[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sat Dec 23 15:47:32 2017 +0430
+
+    Remove server error message on master data approval
+
+[33mcommit 0911e140787fe1f405e4647cf09a06aa59051cac[m
+Merge: 43e5a26e ff4ac38e
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Dec 23 15:42:05 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit 43e5a26ef6b5a955e29a919e5e0c7f78313e4e70[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Dec 23 15:41:08 2017 +0430
+
+    Enhance package validation message
+
+[33mcommit ff4ac38e54fc3f97cd2bfedb6e4209a4cdece22a[m
+Merge: 54b3ba5b 0ae8e803
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Dec 23 15:10:13 2017 +0430
+
+    Merge pull request #155 from sadaf-netlinks/master
+    
+    Fix bank accout label and icon issue
+
+[33mcommit 0ae8e8031952aa6ef7259b094ebd37109f19a7aa[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sat Dec 23 15:04:52 2017 +0430
+
+    Fix bank accout label and icon issue
+
+[33mcommit 54b3ba5bf73096038f14007295d23aec79ac317f[m
+Merge: 186a3cc7 7f0e5610
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Dec 23 13:38:02 2017 +0430
+
+    Merge pull request #150 from sadaf-netlinks/master
+    
+    Change confirmation alert to toast message
+
+[33mcommit 7f0e561033ce97a05c7d9470f758e14b23c1bfd4[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sat Dec 23 11:42:56 2017 +0430
+
+    Change confirmation alert to toast message
+
+[33mcommit 186a3cc7c86fa87197879887e667f6564afc0d52[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Dec 23 11:06:18 2017 +0430
+
+    Fix package amount validation issue
+
+[33mcommit 2d24b15c4569c0a7584886f7fe94f5cc263b72f1[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Dec 23 09:58:07 2017 +0430
+
+    remove extra div in package html
+
+[33mcommit 4e24bd18dd5409671c4ce86bc6a093329c4f65e6[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Dec 23 09:36:42 2017 +0430
+
+    Remove currency
+
+[33mcommit ed5679b8f14af2936107b6ce868e27c39d7f6ee4[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Dec 23 00:35:22 2017 +0430
+
+    Add package server side validation
+
+[33mcommit 4ba941b8a45428be319fed5fea0c9cbcff7a5c07[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Fri Dec 22 01:16:09 2017 +0430
+
+    Fix company verify icon issue
+
+[33mcommit 3e47fdf9bacfec13ad015766697aeeaa00b2aaf8[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Fri Dec 22 00:58:48 2017 +0430
+
+    Solve redirect issue while trashing user
+
+[33mcommit 0e730762edbce214ac83d25a60a003a40b26bffd[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Fri Dec 22 00:49:47 2017 +0430
+
+    Change active to restore in trash component
+
+[33mcommit 0208b37fd277eec799aaf35f8b85ce9a3585f8a8[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Fri Dec 22 00:22:41 2017 +0430
+
+    Add credit from employer list
+
+[33mcommit 3628bf6fe7827d75aa0ce4729442373535bd1716[m
+Merge: 8e3ff0f7 6f50360c
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Dec 21 23:30:38 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit 8e3ff0f7c402095dfbf8d002ec27d7956ad8b809[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Dec 21 23:17:49 2017 +0430
+
+    Fix in margin of package # 130
+
+[33mcommit fb59b696cf8c4d36f278242e269c59272456ae6c[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Dec 21 22:55:08 2017 +0430
+
+    Fix empty column issue
+
+[33mcommit d2546cfd73da2c6b343a80db09e06f54fff780d9[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Dec 21 22:40:16 2017 +0430
+
+    Fix placeholder overlaping
+
+[33mcommit daabbc00fd740083d7ff131baf53862836b3da25[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Dec 21 22:14:25 2017 +0430
+
+    Enhance user profile
+
+[33mcommit 6f50360c125fe92891e72b228febee9515fdf984[m
+Merge: 37a9a815 32468295
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Dec 21 11:54:54 2017 +0430
+
+    Merge pull request #134 from sadaf-netlinks/master
+    
+    Fix general search label, search result edit and empty search term is…
+
+[33mcommit 324682950a941b1a9c7490fe40d68f4467acb2c2[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Dec 21 11:53:30 2017 +0430
+
+    Apply comments for pull request
+
+[33mcommit 5b44887ac9ecc3f2a61899f21a7a395b89614cd0[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Dec 21 09:29:42 2017 +0430
+
+    Remove setting component form show user
+
+[33mcommit ed0d9b38566f7263b8396dc5cad7c3d2d6ae5b8c[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Dec 21 09:02:42 2017 +0430
+
+    Fix ExpressionChangedAfterItHasBeenCheckedError on user edit
+
+[33mcommit c5f4ef784c38825f902b4f6a6db214a079a98553[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Dec 21 09:01:21 2017 +0430
+
+    Remove a ccomment
+
+[33mcommit aec80bf4157f7bf47348db06e8e8fb3ef8b9e9eb[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Dec 21 08:57:19 2017 +0430
+
+    Remove comments
+
+[33mcommit 5da05c0b56a5478b406daa5cbd15ee481c5a6bcc[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Dec 20 23:24:41 2017 +0430
+
+    Fix general search label, search result edit and empty search term issues
+
+[33mcommit 27c9544ad7318ecb6aaac09206fb65321e16ab87[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Dec 20 22:22:28 2017 +0430
+
+    Fix user edit issue
+
+[33mcommit 02ffd815a95b03f92358eef218c6b9ecd5771ce1[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Dec 20 16:15:03 2017 +0430
+
+    Add edit user component
+
+[33mcommit 9b874b6fa1094bdb5891fcf739f8b198243f9599[m
+Author: matiullah <karimi@netlinks.ws>
+Date:   Wed Dec 20 13:18:26 2017 +0430
+
+    Enhance live chat
+
+[33mcommit 37a9a815c4bb1154bb2c2c52c25cc1fa0da8333a[m
+Merge: e0282a64 0e0fe1cf
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Dec 20 09:34:26 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit 0e0fe1cfeba0b02e2aa3e72aad67f1770f890b3b[m
+Merge: 456ccb76 7b94a8ac
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Dec 20 09:32:45 2017 +0430
+
+    Merge pull request #128 from sadaf-netlinks/master
+    
+    Handle page redirect when session is blocked
+
+[33mcommit 7b94a8acaf1be86de992c6815d8a0855d5e35249[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Dec 20 08:50:34 2017 +0430
+
+    Remove title from toast functions
+
+[33mcommit 37db170a1aa89161fbe5a58d59a82068df7c83b8[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Dec 19 23:32:00 2017 +0430
+
+    Remove company approval from master data
+
+[33mcommit 1d13514615cdd19db8238e593a74b1484dd81fac[m
+Author: matiullah <karimi@netlinks.ws>
+Date:   Tue Dec 19 23:30:45 2017 +0430
+
+    Add live chat
+
+[33mcommit db5ae725af7e16f0c18ce68abbf3f541d7e277a9[m
+Merge: 27f4fc15 456ccb76
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Dec 19 22:55:07 2017 +0430
+
+    Resovle conflicts
+
+[33mcommit 27f4fc15de33c29e7da6b6efb173610ae5d43851[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Dec 19 21:34:58 2017 +0430
+
+    Handle page redirect when session is blocked
+
+[33mcommit e0282a641a6e5c1756fb63c6482a8dbdc61f42d0[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Dec 19 16:30:57 2017 +0430
+
+    Add server side validation to add user
+
+[33mcommit 456ccb768843c8b2a5e630c2d1c17444ecaba358[m
+Merge: 962872bc 5a5a5db8
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Dec 17 13:20:30 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit 962872bc24773f01084f9d3572c33675864966a9[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Dec 17 13:19:59 2017 +0430
+
+    Fix typo error
+
+[33mcommit 5a5a5db806fb7a473d195bf8aa1b4db8d2a43862[m
+Author: Hamed Mehryar <hamed@netlinks.af>
+Date:   Sun Dec 17 13:16:03 2017 +0430
+
+    Update ISSUE_TEMPLATE.md
+
+[33mcommit eab3193499888df1486d74103ca51525176451fa[m
+Author: Hamed Mehryar <hamed@netlinks.af>
+Date:   Sun Dec 17 13:04:33 2017 +0430
+
+    Update ISSUE_TEMPLATE.md
+
+[33mcommit 01b107df5e2aa1560c48d2d40aab860e4b2e98a9[m
+Merge: c4b2fda7 427912c2
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Dec 17 13:04:18 2017 +0430
+
+    Merge pull request #114 from sadaf-netlinks/master
+    
+    Remove search section from all list when there is no data
+
+[33mcommit c4b2fda74467b07b065343b67ab81a65c96aeaa4[m
+Author: Hamed Mehryar <hamed.cs@gmail.com>
+Date:   Sun Dec 17 13:03:28 2017 +0430
+
+    Enhance ISSUE_TEMPLATE file
+
+[33mcommit 2ba5254c473e99b81e002ba336cb5af984cf2f73[m
+Author: Hamed Mehryar <hamed.cs@gmail.com>
+Date:   Sun Dec 17 12:57:32 2017 +0430
+
+    Add Issue template file
+
+[33mcommit 427912c24f8cb3d310d2b410e8d0acb597fb52d9[m
+Merge: 6843098d 9a588312
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Dec 17 12:25:27 2017 +0430
+
+    Merge branch 'master' into master
+
+[33mcommit 6843098deef7721be52e6c0e540056330726136e[m
+Merge: e1c255cb 9a588312
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Dec 17 12:24:52 2017 +0430
+
+    Merge branch 'master' into master
+
+[33mcommit e1c255cbf8a360ed41d91558b35f962cd8031fee[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Dec 17 12:23:05 2017 +0430
+
+    Remove search section from all list when there is no data
+
+[33mcommit 9a58831291490075d912ee042bf7e300b30a565a[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Dec 17 09:03:06 2017 +0430
+
+    Fix typo error
+
+[33mcommit 49b77ec0e5b5d7dfe4491f625fed250a9e3ec55e[m
+Merge: c36fe45e 2a8df1c8
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Dec 16 16:07:01 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit c36fe45e9cf88f0c10209179e5f7506f7c7d06b2[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Dec 16 16:06:50 2017 +0430
+
+    Fix jobs image routes issue
+
+[33mcommit 2a8df1c8a912e4dd11af804f421f5b038a7b1129[m
+Merge: 103791d2 11bc3cf3
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Dec 16 15:07:27 2017 +0430
+
+    Merge pull request #113 from sadaf-netlinks/master
+    
+    Add changes on trusted device and sessions
+
+[33mcommit 11bc3cf3547e642d90eb678e2c683577155c1ed4[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sat Dec 16 15:02:05 2017 +0430
+
+    Add message if no session is exist
+
+[33mcommit 560d7f54726c2d46aa99810e8dbd35c29bb53ba1[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sat Dec 16 14:30:32 2017 +0430
+
+    Add changes on trusted device and sessions
+
+[33mcommit 103791d2783af2169a41a6e5203571389151ef12[m
+Merge: fb1efa35 484a7648
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Dec 16 08:51:57 2017 +0430
+
+    Merge pull request #112 from sadaf-netlinks/master
+    
+    Add trusted devices
+
+[33mcommit 484a7648552043dd95ee2242bebd31ad4cec7092[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Fri Dec 15 19:57:44 2017 +0430
+
+    Add trusted devices
+
+[33mcommit fb1efa3552d1bed21ff6071ada792fa6dcb4dc44[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Dec 14 10:40:53 2017 +0430
+
+    Fix typing issue with toastr message
+
+[33mcommit 75f94f1c75a0ede0cf0863d0f16cd9de78509b0a[m
+Merge: c8c22bc8 ad77f0b6
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Dec 14 09:19:05 2017 +0430
+
+    Merge pull request #111 from sadaf-netlinks/master
+    
+     Add logout route and change toast service
+
+[33mcommit ad77f0b6a61faf032f3e8041c673426beeae4171[m
+Merge: 75be2017 c8c22bc8
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Dec 14 09:17:46 2017 +0430
+
+    Resolve conflicts
+
+[33mcommit c8c22bc85ad7045af1772b8015a2271b417c2e3e[m
+Merge: dccfdff2 75267f0c
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Dec 14 09:08:37 2017 +0430
+
+    Merge pull request #110 from sadaf-netlinks/master
+    
+     Add date search in feedback and add width for actions
+
+[33mcommit dccfdff20c53766cf05898989e79603a3a4e0924[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Dec 14 00:31:48 2017 +0430
+
+    Fix typo error
+
+[33mcommit b3fc80bab4132f7aafa473e55ce28a47856f7b86[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Dec 14 00:16:10 2017 +0430
+
+    Fix profile setting image issue
+
+[33mcommit 75be2017ef951c3f36e6554203be096c697c9336[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Dec 13 23:43:33 2017 +0430
+
+    Add changes on toast service
+
+[33mcommit c56ed3653d4d67f22a40b2009620afc67eb430ae[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Dec 13 23:37:08 2017 +0430
+
+    Fix user active, deactive, delete issue
+
+[33mcommit 3675c2aaf487e67595ec44a58af0fb0321ee81e5[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Dec 13 20:50:45 2017 +0430
+
+    Add logout rout
+
+[33mcommit 75267f0cd74cb6abd9f410b4f7cb6857a311dc11[m
+Merge: 6603b3f6 19bf1499
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Dec 13 14:25:23 2017 +0430
+
+    Resolve conflicts
+
+[33mcommit 6603b3f63c75aa6851391f822386bf8fdad726db[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Dec 13 14:13:55 2017 +0430
+
+    Add date search in feedback and add width for actions
+
+[33mcommit 19bf1499ebdba6da75485d7094be089facdf2fa1[m
+Author: Nimatullah Razmjo <nimatullah.razmjo@gmail.com>
+Date:   Wed Dec 13 10:35:15 2017 +0430
+
+    Add admin type guard
+
+[33mcommit 1b6ea6568a3516febbf7c8c99fe0733c4e212acd[m
+Merge: 8c975cdd d3953bfe
+Author: Nimatullah Razmjo <nimatullah.razmjo@gmail.com>
+Date:   Wed Dec 13 09:21:16 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit d3953bfe85085ff6cf4299012572fb38a2dcc8a1[m
+Merge: 1d8147f0 711d973d
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Dec 12 15:58:56 2017 +0430
+
+    Merge pull request #102 from sadaf-netlinks/master
+    
+    Fix label issues
+
+[33mcommit 65d269ff45c9960de96fa9a614bf8143711877a9[m
+Merge: 711d973d 1d8147f0
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Dec 12 14:14:09 2017 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-admin
+
+[33mcommit 711d973dc6a7106f965167fcdd70151fc4e4a02e[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Dec 12 13:23:34 2017 +0430
+
+    Fix Settings label issues
+
+[33mcommit 8c975cdd7b280415d2e6876cb9a7e5187aa6a815[m
+Merge: 68acb1d4 1d8147f0
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Dec 11 15:25:41 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit 1d8147f040f11e4846f7da489297e70f7708c27a[m
+Merge: b8eb05b9 82906366
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Dec 11 15:24:43 2017 +0430
+
+    Merge pull request #101 from sadaf-netlinks/master
+    
+    Add bank account type, Edit and approve master data, Fixed bank account and feedback issues
+
+[33mcommit 68acb1d40a2ae7ee598e35745eb22aaf3e512cd7[m
+Merge: 69d03cf2 b8eb05b9
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Dec 11 15:22:10 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit 69d03cf2afa09029dbbd401cddd5aacb8c19c09e[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Dec 11 15:21:01 2017 +0430
+
+    Fix action column
+
+[33mcommit 829063669f90454b6d6f8634d57076176ff37525[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Mon Dec 11 09:40:43 2017 +0430
+
+    Remove a comment
+
+[33mcommit 1d9744a74476adcb4f0c9d0682b0286b25ca4ca1[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Mon Dec 11 09:38:02 2017 +0430
+
+    Add changes on approve function
+
+[33mcommit d4561662d7daf3d542e4b086394db14491197d50[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Mon Dec 11 09:33:25 2017 +0430
+
+    Add icons for approve or remove unapproved master data
+
+[33mcommit 1137565369bd18ab7e05ab16dc0cc2a26993c9e7[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Mon Dec 11 09:10:46 2017 +0430
+
+    Add edit and approve in unapproved master data
+
+[33mcommit b8eb05b93e90fc7553d3d9320af2475d1057db84[m
+Merge: 679a0e8a 33e199b1
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Dec 10 08:52:52 2017 +0430
+
+    Merge pull request #100 from sadaf-netlinks/master
+    
+    Change add and edit tiny forms from routes to modals
+
+[33mcommit 7c8b8d79a79045b09a198eebc0b7031db0055a48[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sat Dec 9 23:07:22 2017 +0430
+
+    Add bank account type
+
+[33mcommit e33faeacda7ddc70c7b10d4378595925842401d0[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sat Dec 9 21:56:49 2017 +0430
+
+    Fixed feedback design and bank account issue
+
+[33mcommit 33e199b14900ef27ae7c7c75fcbc2a8a02585487[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sat Dec 9 15:33:53 2017 +0430
+
+    Change add and edit of tiny forms from outes to modals
+
+[33mcommit 679a0e8a38d8bd17edbe936e247f8aac52428a5f[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Dec 7 22:13:06 2017 +0430
+
+    Fixes exchange rate issues
+
+[33mcommit ecf7d9cba94789b41461c5bfba00374411f28981[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Dec 7 09:09:24 2017 +0430
+
+    Revert "Enhance exchange rate module"
+    
+    This reverts commit 9bf77d7c61d4dcb5bd8925ee42c522cf0033fc6b.
+
+[33mcommit 1f511562a02276c5e85a8cd316c714c5a8b004e8[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Dec 7 08:10:12 2017 +0430
+
+    Fix UI issue with packaging
+
+[33mcommit 41cdd6855c8a4529851e7e372a9a20d96769b93a[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Dec 7 04:57:32 2017 +0430
+
+    Fixes #55
+
+[33mcommit 3cb2ac8add623e5c20e4202e052dd781e317225e[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Dec 7 04:18:02 2017 +0430
+
+    Fixes #58
+
+[33mcommit 0d95a6d7df78b8e8ad95b9f7a979fe509a44b421[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Dec 7 04:10:57 2017 +0430
+
+    Fixes #56
+
+[33mcommit 89b66ae2f448b397fe4e3b70eea2a2619767b470[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Dec 7 03:46:13 2017 +0430
+
+    Fixes active tabs for show users
+
+[33mcommit 9fedccab95b716fa9c482bad883f10922894d398[m
+Merge: 5b06e676 eeaffe9c
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Dec 6 16:22:18 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit 5b06e676445dc99a50bde8a96f25d44bf61f9318[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Dec 6 16:22:09 2017 +0430
+
+    Fixes #80
+
+[33mcommit eeaffe9c00d9fdb0d41f3ba50d9268f16d9b6a48[m
+Merge: 76e1a5b4 4efdccf0
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Dec 6 15:42:37 2017 +0430
+
+    Merge pull request #97 from sadaf-netlinks/master
+    
+    Remove isApproved from master data client side and add placeholder for company statement field and add toast message for add functions
+
+[33mcommit 4efdccf00aa85f8594ca191b82cec73908b8b8f1[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Dec 6 15:27:34 2017 +0430
+
+    Change add alert to toast message
+
+[33mcommit af3300983931ac1ede3ba96d471d85ff0715272f[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Dec 6 14:15:03 2017 +0430
+
+    Fixes company issue
+
+[33mcommit 8d3773f31f7f2585344995570808debff82b8614[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Dec 6 13:32:12 2017 +0430
+
+    Remove isApproved from master data client side and add placeholder for company statement field
+
+[33mcommit 690a4234568f5a2489a19d3a886a7f8d57163a33[m
+Merge: 534006c9 76e1a5b4
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Dec 6 10:04:34 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit 534006c9fb8ada928736eb10f947c339ea87998f[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Dec 6 10:02:39 2017 +0430
+
+    Fixes user issues
+
+[33mcommit 76e1a5b4a83f212ebd387942ea390c113c73aead[m
+Merge: 93adead4 26cecf7a
+Author: Mobasher-NetLinks <mobasher@netlinks.af>
+Date:   Tue Dec 5 16:30:42 2017 +0430
+
+    Merge pull request #96 from sadaf-netlinks/master
+    
+    Change sessions design and remove client side data to server
+
+[33mcommit 26cecf7a7fad38bc9e8cef94956611106eab2856[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Dec 5 16:16:53 2017 +0430
+
+    Remove passing isVerified from client
+
+[33mcommit d68e8b1d0d4571b743fb32a07d3b63c8f7c162b7[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Dec 5 15:28:41 2017 +0430
+
+    Change sessions design and remove client side data to server
+
+[33mcommit 93adead4959cde07b87e603ae617cef87c2c8a64[m
+Merge: d4266fa5 4a6976b1
+Author: Mobasher-NetLinks <mobasher@netlinks.af>
+Date:   Tue Dec 5 13:08:45 2017 +0430
+
+    Merge pull request #95 from sadaf-netlinks/master
+    
+    Change on setting route and tabs
+
+[33mcommit 4a6976b1898dc4ea826c8d7441e8b8b332623b19[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Dec 5 11:49:34 2017 +0430
+
+    Change on setting route and tabs
+
+[33mcommit d4266fa5ab9f144791db33862816d9a2baab9fa1[m
+Merge: 87c6691b 6bba6d4a
+Author: Mobasher-NetLinks <mobasher@netlinks.af>
+Date:   Tue Dec 5 10:57:32 2017 +0430
+
+    Merge pull request #94 from sadaf-netlinks/master
+    
+    Add is closed in active session service
+
+[33mcommit 6bba6d4a86a346a13ef9fcdc8f7dd3c858efaa94[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Dec 5 10:54:04 2017 +0430
+
+    Add is closed in active session service
+
+[33mcommit 87c6691bbb29fa0d8f449a5e29313c93ba5d93f2[m
+Merge: 3c79ddda b4656987
+Author: Mobasher-NetLinks <mobasher@netlinks.af>
+Date:   Tue Dec 5 10:40:00 2017 +0430
+
+    Merge pull request #93 from sadaf-netlinks/master
+    
+    Check email existence
+
+[33mcommit b4656987b3a0a621c9aa48407d82b0b4422761f7[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Dec 5 10:34:59 2017 +0430
+
+    Change session isClosed when logout
+
+[33mcommit 115739a43e3dcbfd3d145b5e4b1e2c3334620473[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Dec 5 09:17:37 2017 +0430
+
+    Check email existence
+
+[33mcommit 035ca56ff52bfe18011eb26461950c839b8af9fa[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Dec 4 20:47:31 2017 +0430
+
+    Add archived jobs tab
+
+[33mcommit 3c79ddda1c90debce109552836b636c9d68418e3[m
+Merge: 2b77d5c2 4718ea85
+Author: Mobasher-NetLinks <mobasher@netlinks.af>
+Date:   Mon Dec 4 09:23:53 2017 +0430
+
+    Merge pull request #57 from sadaf-netlinks/master
+    
+     Change email, phone and change password forms
+
+[33mcommit 4718ea85c68d5570387aa0c858c2e21b3ad2b6ce[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Mon Dec 4 09:17:23 2017 +0430
+
+    Change email, phone and change password forms
+
+[33mcommit 2f37d33eadfed17a2a6068d42144e9f12853b6ae[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Dec 3 21:31:33 2017 +0430
+
+    Fix jobs issue
+
+[33mcommit 131be6d1f47f73e4c8e501d2fcc44e9a81892a37[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Dec 3 21:24:46 2017 +0430
+
+    Fixed type errors
+
+[33mcommit c1cdc021fb256886bc3dea36ecc1e0135a9499d9[m
+Merge: 33af8ad0 2b77d5c2
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Dec 3 16:27:25 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit 2b77d5c27e359add20fed5cc9fc3d3f249b1d3a7[m
+Merge: 6f6f8826 b660d5d4
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Dec 3 16:25:27 2017 +0430
+
+    Merge pull request #26 from sadaf-netlinks/master
+    
+    Check phone number existance inside contacts array of user
+
+[33mcommit 33af8ad06e3193a670757786f35d72fb2bb317c7[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Dec 3 16:24:01 2017 +0430
+
+    Fix user default image issue
+
+[33mcommit b660d5d4ed404efc24947801766467f0eaf1bbf2[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Dec 3 16:14:05 2017 +0430
+
+    Change price plan suggestion
+
+[33mcommit d17c4bc83274bf2c217d057df4d0f41e4ca04bc1[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Dec 3 13:56:57 2017 +0430
+
+    Add jobs list with filter
+
+[33mcommit 532e54cb9c4a0794aa989ed34d82797d18eebc4c[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Dec 3 11:28:44 2017 +0430
+
+    Check phone number existance inside contacts array of user
+
+[33mcommit ee9d8390396ab0f38780b5d85bf395b1a3a8c7a0[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Dec 3 10:25:23 2017 +0430
+
+    Fix issue of company type edit valid plans :)
+
+[33mcommit 6f6f8826438e7872707b2fda9a00839685ea7160[m
+Merge: 9bf77d7c 48c06c42
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Dec 3 10:14:44 2017 +0430
+
+    Merge pull request #25 from sadaf-netlinks/master
+    
+    Add valid plans in company type list
+
+[33mcommit 48c06c42146e5f1cd2a2a912215e7281f3899ede[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Dec 3 10:11:54 2017 +0430
+
+    Remove comment
+
+[33mcommit d6564f83f26649b863ebd7a2e908eeb17453af43[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Dec 3 10:08:54 2017 +0430
+
+    Add valid plans in company type list
+
+[33mcommit 9bf77d7c61d4dcb5bd8925ee42c522cf0033fc6b[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Dec 2 16:03:36 2017 +0430
+
+    Enhance exchange rate module
+
+[33mcommit d6d8e15e2c8216113a65432410adba001690ebc8[m
+Merge: 2cf2aab1 3b7cf18b
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Dec 2 14:00:01 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit 2cf2aab15b5660eeaa3b1324a1cd4ccf859eba5d[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Dec 2 13:57:57 2017 +0430
+
+    Change user routes
+
+[33mcommit 3b7cf18b8ad6644a493b143b77188b048577ddf7[m
+Merge: 57de3939 e1943fac
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Dec 2 13:57:12 2017 +0430
+
+    Merge pull request #24 from sadaf-netlinks/master
+    
+    Add company types
+
+[33mcommit e1943fac43a9b1c0778871e1227968f6ba1e838c[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sat Dec 2 10:47:52 2017 +0430
+
+    Remove search on keyup and keydown
+
+[33mcommit 901b071d439e14ed52c307789c15a3aa8b0033b2[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sat Dec 2 09:53:33 2017 +0430
+
+    Add ngmodel to company type priceplan
+
+[33mcommit 845c50295a3e8c13ff3b916ccbe2d0e228221c3a[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Fri Dec 1 22:17:00 2017 +0430
+
+    Add company type
+
+[33mcommit 57de39398ef8699891f9f9bbaa17e5c6b317cb5a[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Fri Dec 1 21:42:38 2017 +0430
+
+    Add jobs module
+
+[33mcommit a8b47555dee9926ed0dc88c675b1df6167daaa32[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Fri Dec 1 20:14:18 2017 +0430
+
+    Add verify/deactive functionality for company
+
+[33mcommit 2f19651f585c15cafe4a5d95ca3ac877e6b424fe[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Fri Dec 1 19:07:19 2017 +0430
+
+    Filter company by isVerified status
+
+[33mcommit a0da4365e6f250551f19785fad61baedce3bbb01[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Nov 30 20:57:19 2017 +0430
+
+    List verified companies
+
+[33mcommit 8384f5aa2a189f7c94865b4ad3f948bc3c02cb05[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 29 21:50:19 2017 +0430
+
+    Add company edit
+
+[33mcommit 7daca4e34c55f42bb8d42a97ec439664758cc162[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 29 11:10:53 2017 +0430
+
+    Fix table border issue
+
+[33mcommit 5a7381387e080c159a0bda8e90b6016596452c4b[m
+Merge: 70e85813 2668708d
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 29 10:59:46 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit 2668708d11e176c55ee5247a8fb48b0a5a174cf1[m
+Merge: f2e70750 8850e45c
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 29 10:59:19 2017 +0430
+
+    Merge pull request #23 from sadaf-netlinks/master
+    
+    Remove general/privacy settings, remove reloading page and add share() in services
+
+[33mcommit 70e858134815cdc1a61f38e368d37247a9b973b0[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 29 10:57:34 2017 +0430
+
+    Add share() to every user and package service
+
+[33mcommit f2e70750739ec7d0965412034ada3ee30a8468ef[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 29 10:30:57 2017 +0430
+
+    Fixed some style issue
+
+[33mcommit 8850e45c73bc6dc2ad44cb3878a3d8e0f38a8eda[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Nov 28 22:21:17 2017 +0430
+
+    Remove general and privacy settings
+
+[33mcommit 7deaf0bcbb6c53e1b371231e67d5110cadbe1303[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Nov 28 21:09:45 2017 +0430
+
+    Add share() in service and remove reloading in sweet alerts
+
+[33mcommit e5f973795d8ffb3e8fdeacfa575457beff31fa2c[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Nov 28 21:08:59 2017 +0430
+
+    Fix add company issue
+
+[33mcommit 74fb7c3c8dcad59af6011330704f9c739557522c[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Nov 28 20:48:34 2017 +0430
+
+    Fix user edit issue
+
+[33mcommit bb9905d8d6748b1f22ed63f3a1dac44f9a7cf797[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Nov 28 20:13:29 2017 +0430
+
+    Fix user setting issue
+
+[33mcommit 876b89fcdc920f584d73b0521b22eafd0b3b511c[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Nov 27 13:58:29 2017 +0430
+
+    Add pagination and search feature to users
+
+[33mcommit 926d9402a74e2aa3b8b28d7ef42b07e8596ca5dd[m
+Merge: 472dbda1 336b52d0
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Nov 27 10:55:38 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit 336b52d0a386638217da4ef7d9068c080b257d3a[m
+Merge: 7abb7715 23a69c68
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Nov 27 10:55:07 2017 +0430
+
+    Merge pull request #22 from sadaf-netlinks/master
+    
+    Add changes on general search
+
+[33mcommit 472dbda14e6dcf63ee1f0ff41261dc20c0b5f8a3[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Nov 27 10:48:54 2017 +0430
+
+    Add search and pagination to employer list
+
+[33mcommit 23a69c68e6e449ea380ffeb72ab355323b4f7af4[m
+Merge: e6bb9c5e 7abb7715
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Mon Nov 27 09:55:09 2017 +0430
+
+    Resolve confilcts
+
+[33mcommit e6bb9c5e16e80fb248307aaa9523b21e63980e67[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Mon Nov 27 09:51:31 2017 +0430
+
+    Remove responsive tabs
+
+[33mcommit f0ab49f539be0f2377a6d716f7b8cc910eeba266[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Mon Nov 27 09:48:24 2017 +0430
+
+    Add changes on general search
+
+[33mcommit 7abb7715dae54f5c65635e5c586e5d02659f90d8[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Nov 26 16:25:37 2017 +0430
+
+    Add user list with aggretion of total
+
+[33mcommit a9e33d8b3ebc3e0afb242fb2ff4c486b03908b08[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Nov 25 16:20:47 2017 +0430
+
+    Add admin search with pagination
+
+[33mcommit 2968dde008a620a4c647f032dcdd11eac2c0a765[m
+Merge: 278dc5a0 e19a2bab
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Nov 25 10:36:40 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit 278dc5a0325a1df63a6cf285f256fa1851a53367[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Nov 25 10:36:05 2017 +0430
+
+    Change error message color
+
+[33mcommit e19a2baba5e535ed805b9b1e68fa8b489cda172f[m
+Merge: 2a33b725 ab56047c
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Nov 25 08:31:10 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit 2a33b7251df56609b99f9a5d5cd5bb52c84e2911[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Fri Nov 24 21:48:12 2017 +0430
+
+    Filter package by type
+
+[33mcommit ab56047c251455dc58cb0a78f1c7460deef3b0a2[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Nov 23 11:48:09 2017 +0430
+
+    Fix dropdown issue
+
+[33mcommit 201afd60f8ca179e27638c624ff5576aa4e1e77b[m
+Merge: d4fcc1a7 dc97ecab
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Nov 23 10:20:34 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit 7604b76b70f8fc03eb6cfb82cb6b0a64c0a190ce[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Nov 23 08:44:58 2017 +0430
+
+    Remove view package for employer details
+
+[33mcommit dc97ecabd934d0e84f7c673ef6cfb2c8e4f06f35[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Nov 23 08:05:17 2017 +0430
+
+    Add view subscription component
+
+[33mcommit 484779fde353c9c623d6f5102cdca404dc224ca2[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Nov 23 06:10:11 2017 +0430
+
+    Add approve, cancel, and reject to subscriptions
+
+[33mcommit 4c6f9e57381baef471adbd660d04951f756f6b0f[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Nov 23 05:51:57 2017 +0430
+
+    Fix packages success messages issue
+
+[33mcommit 4d14e8db1443b14386bfb7ba4bc746eaacfa98f0[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Nov 23 04:16:47 2017 +0430
+
+    Fix package success messages
+
+[33mcommit c04348d80712d291365fb4bc76db74874bae4ba6[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 22 18:08:42 2017 +0430
+
+    Fix rejected issue
+
+[33mcommit aef63df642830f0b04b95ae8fbf1aa336f5378d6[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 22 17:30:18 2017 +0430
+
+    Remove unused function paramter
+
+[33mcommit 79529d57f1183cb1a3534dffa798dfc1b30e7277[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 22 16:56:41 2017 +0430
+
+    Add rejected user page pagination and search
+
+[33mcommit f21ccbfdf7ce7132e0a98399ad5800abe5b6e985[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 22 16:45:17 2017 +0430
+
+    Add search and pagination to rejected-subscription
+
+[33mcommit dbe843df54a0798bc6910277c2e9a81a8fff4381[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 22 16:02:20 2017 +0430
+
+    Add search and pagination for userPackage
+
+[33mcommit 328616a77483f4f71a27dcf1739467ba761a8bfb[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 22 15:41:11 2017 +0430
+
+    Add pagination for cancelled subscription
+
+[33mcommit 015ebd208178d609cea80b3019d67088a6574f96[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 22 15:00:39 2017 +0430
+
+    Add pagination and search from expired packages
+
+[33mcommit 0a8071f821f4bdeb5c0befda8d92f61838a423fe[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 22 13:58:07 2017 +0430
+
+    Add search and pagination to userpackge pending tabs
+
+[33mcommit 1c69ffe4f13221305957c67cd49653195a603316[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 22 11:42:31 2017 +0430
+
+    Add search and pagination on user package
+
+[33mcommit 283de0b5d287a459f597c7bc8be6e265ea090ce4[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 22 10:08:26 2017 +0430
+
+    Fix total active subscription issue
+
+[33mcommit ac7fc27dad6d819548a292ebb08cc61c68554c64[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 22 09:54:06 2017 +0430
+
+    Add pagination and search for active subscription
+
+[33mcommit 0dcf3ab206b3bf6c0fd0bb8c431f0ebf95252bc5[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Nov 20 17:32:18 2017 +0430
+
+    Filter package by type
+
+[33mcommit dd307ce6f79a93def8aa49995af7499a3819b24d[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Nov 20 17:11:39 2017 +0430
+
+    Add filter in package
+
+[33mcommit 0f56a2d1eba27a8166d2b34606ee4a6b81bada41[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Nov 20 16:37:35 2017 +0430
+
+    Add filter to packages
+
+[33mcommit 9ba734dacffbf2bb08d7137ae2b34ec289b042a3[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Nov 20 13:15:02 2017 +0430
+
+    Check if user is admin
+
+[33mcommit 6edbeb776aef313495f8d1aa6486e324e308b069[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Nov 20 12:41:58 2017 +0430
+
+    List subscription by category
+
+[33mcommit 45f452c5e94d048da571e3f830ff2323547afcf9[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Nov 20 10:39:35 2017 +0430
+
+    Remove unused images
+
+[33mcommit f5bea0685d9286550df23ac5b246d5bd4c3fa34a[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Nov 20 10:19:14 2017 +0430
+
+    Set profile pics
+
+[33mcommit 375b78a64046d917b06bee8dccc34b0d2e1613f7[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Nov 20 09:26:10 2017 +0430
+
+    Fix login redirect issue
+
+[33mcommit 71e2ca42b864e89674880b096f6d31518a4c6a1d[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Nov 20 08:51:32 2017 +0430
+
+    Add subscription menu
+
+[33mcommit 2fef886efd764bc7ba5a66a15a591819d2ec14d8[m
+Merge: 77893c81 d4134222
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Nov 18 16:30:28 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit d4fcc1a744439b1ffd55862e31f2e4b30dcc9f4b[m
+Merge: b3bc970b d4134222
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Nov 18 14:28:34 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit b3bc970bc7637bc63162b16d741c6480d1d16348[m
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Nov 18 14:27:59 2017 +0430
+
+    Fix untracked file issue
+
+[33mcommit d4134222e01ac36fc58fe0884992312de5ddb0d1[m
+Merge: 4e781fbd 240a7d6e
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Nov 18 13:36:40 2017 +0430
+
+    Merge pull request #21 from sadaf-netlinks/master
+    
+    Add feedback attachment show
+
+[33mcommit 240a7d6e60ad2722178ef7dfc1aaf3b3966c100a[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Nov 16 11:52:29 2017 +0430
+
+    Check response existance
+
+[33mcommit 7b335a9699d5d046f6e76b1186118bd884385fce[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Nov 16 10:59:21 2017 +0430
+
+    Add feedback view attachment before download
+
+[33mcommit 4daa68b889eb14c9dc05cd723fc695d5c2280a95[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Nov 16 10:26:19 2017 +0430
+
+    Add loader icon on company statement download
+
+[33mcommit 77893c81c86e1785f4f55467c80372c0baa08ff7[m
+Merge: 4cd044bc 4e781fbd
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 15 16:26:14 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit 4e781fbd9cc1964eb60ba0e87c329a503e9824ff[m
+Merge: 76fc82d6 a7fd89af
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 15 16:23:23 2017 +0430
+
+    Merge pull request #20 from sadaf-netlinks/master
+    
+    Add company statement
+
+[33mcommit badb41e937102234534d319aadc5e63551237689[m
+Merge: a7fd89af 76fc82d6
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Nov 15 15:52:02 2017 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-admin
+
+[33mcommit a7fd89af24ce0f4f54e4aae5135b82708653dd12[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Nov 15 15:28:03 2017 +0430
+
+    Add company statement
+
+[33mcommit 4cd044bcd7c3bf6c555842b95439040f35775565[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Nov 14 18:28:40 2017 +0430
+
+    Remove old subscription files
+
+[33mcommit 76fc82d66cc021c76f866eed4f29e2b6a22bab43[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Nov 14 18:11:11 2017 +0430
+
+    Enhance user package details
+
+[33mcommit a974707483143fa63d331a9c3608db9108f37a03[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Nov 14 09:09:09 2017 +0430
+
+    Set environment config
+
+[33mcommit 083b81056d96b6959e3bb8aad07fd2df4d5c5c1b[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Nov 13 22:42:38 2017 +0430
+
+    Filter user packge
+
+[33mcommit 45788089c5bc8ea883c8ae83613f431805ee957e[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Nov 13 11:24:22 2017 +0430
+
+    Enhance package according to package schema
+
+[33mcommit d93f82aaf396888b9ba745920e2fe991b499ffd5[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Nov 13 10:34:37 2017 +0430
+
+    Remove number of jobs if package is resume
+
+[33mcommit f92fd42b93a484463788c54c7689cf26cc9225fe[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Nov 13 10:29:45 2017 +0430
+
+    Remove jobsposting bonus if does not have
+
+[33mcommit 909b5ce03ccdd96003fdb671e3955816d8f5e535[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Nov 13 10:08:24 2017 +0430
+
+    Change create-package form according to schema
+
+[33mcommit 7b9e1a1d842e151df43317cf52f8944818b9d8aa[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Nov 12 13:02:19 2017 +0430
+
+    Add exchange rate
+
+[33mcommit 6259e4be7c092ae74bec4e3e90d91f055a6cca99[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Nov 11 14:24:17 2017 +0430
+
+    Set timer for swal in create package
+
+[33mcommit a92ad6c0c26e2ea2f14156f1d856265718fb5ce9[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Nov 11 11:14:36 2017 +0430
+
+    Change build location
+
+[33mcommit 53305c0c94e50d72c9af59d4096c4c29c8a02fde[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Nov 11 10:32:51 2017 +0430
+
+    Add base-href-webpack-plugin
+
+[33mcommit 6c8d262c9142ba3cf8ccc513f049019f4fb63d6a[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Nov 11 10:24:47 2017 +0430
+
+    Add component fo user packages
+
+[33mcommit 32a4c7f57a456027b683d2bd9d3b62f1aef87edf[m
+Merge: e9f551ab 8ce34fa7
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Nov 9 11:49:41 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit e9f551ab087b1a2a1ca29977ee0985bd2e4fdbc4[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Nov 9 11:49:31 2017 +0430
+
+    Change on packages
+
+[33mcommit 316d6e1780d5d7124c8a5b2dff1b8284ea76f171[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Nov 9 10:45:50 2017 +0430
+
+    Add employer packages details
+
+[33mcommit 8ce34fa749bfb599ba4bda14528297380422b53d[m
+Merge: 02fb3e34 39f30a5e
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Nov 9 09:30:09 2017 +0430
+
+    Merge pull request #19 from sadaf-netlinks/master
+    
+    Add changes on general search
+
+[33mcommit 39f30a5eb8abb087c392ef8cac59f1ce009e5606[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Nov 9 08:56:10 2017 +0430
+
+    Sort menu
+
+[33mcommit 05b9bb7d487d3585491383217d1c5c7089a4b190[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Nov 9 00:11:22 2017 +0430
+
+    Add changes on search
+
+[33mcommit b1ed1c13b8a81de8ade6f85ccc42d2552d65ad62[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Nov 8 22:12:34 2017 +0430
+
+    Add changes on general search
+
+[33mcommit d9531185fe8e33022a8e9d604245da4d900bc4c8[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Nov 8 16:27:53 2017 +0430
+
+    Add view for reported resources
+
+[33mcommit 02fb3e34df24f65858c334251608d0efe1a206d1[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 8 15:42:58 2017 +0430
+
+    Change bank account view routes
+
+[33mcommit 292e9d4106228820e211539a4d69d75dae15f825[m
+Merge: 097bec3b 3e8f0707
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 8 13:31:23 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit 097bec3ba3268549ad1c2bbb8831e800fc681750[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 8 13:29:55 2017 +0430
+
+    Add credit to employer
+
+[33mcommit 3e8f0707680b3c45656220a522d2145cd696a648[m
+Merge: 3710ed90 66fff27d
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 8 11:50:46 2017 +0430
+
+    Merge pull request #18 from sadaf-netlinks/master
+    
+    Add payment type
+
+[33mcommit 66fff27dc627651d4a87ba7e1509abecffaed395[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Nov 8 11:42:27 2017 +0430
+
+    Add payment type
+
+[33mcommit 3710ed90e23c1228b3c0cd7f569944780d27e828[m
+Merge: e206ef70 b31459bc
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 8 09:11:31 2017 +0430
+
+    Merge pull request #17 from sadaf-netlinks/master
+    
+    Add inactive bank accounts
+
+[33mcommit b31459bcc15e58711a488268454e80556cc65ac6[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Nov 8 08:45:38 2017 +0430
+
+    Add inactive bank accounts
+
+[33mcommit e206ef705026ffe57ff0e1ea798e3eac69e11106[m
+Merge: c1d48b93 93ef85c5
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Nov 7 13:34:30 2017 +0430
+
+    Merge pull request #16 from sadaf-netlinks/master
+    
+    Add changes on feedback and add area of concern in master data
+
+[33mcommit 93ef85c597d232621fbb385b631c4a9e8cdaa4d5[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Nov 7 13:14:22 2017 +0430
+
+    Add changes on feedback and add area of concern in master data
+
+[33mcommit c1d48b93ce7cd3543eb9d7124594c7b9afb832e9[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Nov 5 23:13:50 2017 +0430
+
+    Add package
+
+[33mcommit cdc876ddbfcc657f0e0a8af00c5a29b71dd52051[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Nov 5 21:06:38 2017 +0430
+
+    Add change on add and edit forms
+
+[33mcommit 5bf9b71149da277c80fbf553ab0b00354c545d97[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Nov 5 15:50:11 2017 +0430
+
+    Refoctor user list and details component
+
+[33mcommit d283289ad345f9c3b6f552ce0c8f288a21a5f260[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Nov 5 14:10:13 2017 +0430
+
+    Fix error page styles
+
+[33mcommit 62294dfaad46999895feda38bfecc5e0dd928c8f[m
+Merge: 5ed41cc4 0db2b11b
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Nov 5 11:36:39 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit 0db2b11bf4fbc6835bc5ffb043990692c429ebea[m
+Merge: ecada58e 971e38b0
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Nov 5 11:36:00 2017 +0430
+
+    Merge pull request #15 from sadaf-netlinks/master
+    
+    Add changes on design
+
+[33mcommit 971e38b0b4a9e64f33846e96188c254f261ab81a[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Nov 5 10:23:48 2017 +0430
+
+    Solve type errors
+
+[33mcommit e2d6f1d36ca62b5e8d6ed7f384bf36f6c6545f46[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Nov 5 09:45:10 2017 +0430
+
+    Add changes on design
+
+[33mcommit 5ed41cc40e121b6f9cf06948bfec350958e7a023[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Nov 4 09:33:13 2017 +0430
+
+    Add PathLocalStragegy
+
+[33mcommit ecada58e98fa788b770b72c6354fb15473675313[m
+Merge: 4941427f 303ed823
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Nov 4 08:52:23 2017 +0430
+
+    Merge pull request #14 from sadaf-netlinks/master
+    
+    Add master data management
+
+[33mcommit 303ed8232251edc02b3d2b1e64224d8be3afba62[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Nov 2 11:36:20 2017 +0430
+
+    Fix list scroll issue
+
+[33mcommit af2ea7456e850134952b5daedd46ff00531e8a72[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Nov 2 09:53:18 2017 +0430
+
+    Add master data management
+
+[33mcommit 4941427fb398d926368b42ad096cb26c2e3e6190[m
+Merge: bc39a44c 5fe0842b
+Author: Mobasher-NetLinks <mobasher@netlinks.af>
+Date:   Wed Nov 1 16:28:25 2017 +0430
+
+    Merge pull request #13 from sadaf-netlinks/master
+    
+    Add company approval
+
+[33mcommit 5fe0842b5eb586a47d3d4cc900b9ad45ecc1a99a[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Nov 1 16:25:12 2017 +0430
+
+    Handle sub menu of submenu and add functional area managment
+
+[33mcommit bc39a44c61febe156aa111acd62494c9741866b8[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 1 14:03:32 2017 +0430
+
+    Fix routing issue
+
+[33mcommit 96aa3f6e73525f184c241732510eb017895a280a[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Nov 1 09:01:07 2017 +0430
+
+    Add IP and port to prod file
+
+[33mcommit b44a30204cb06ec864a214cba1380ee372a03382[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Oct 31 15:43:43 2017 +0430
+
+    Remove comment
+
+[33mcommit 6c66d2f62ab2c70a943fe1b5fe292ffe6fafc0ed[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Oct 31 15:37:32 2017 +0430
+
+    Add company approval
+
+[33mcommit 56249748b99f84918d62e5ad4b93a0376ef13a8f[m
+Merge: 74512a1a faa22c00
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Oct 31 10:25:54 2017 +0430
+
+    Merge pull request #12 from sadaf-netlinks/master
+    
+    Change API_URL to API_BASE_URL in services
+
+[33mcommit faa22c0013a30ce72f4805a708534b5902f48144[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Oct 31 09:36:36 2017 +0430
+
+    Change API_URL to API_BASE_URL in services
+
+[33mcommit 74512a1aa1e45c45a6f38561d7569c88ece5a71e[m
+Merge: 86b672a3 49d40404
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Oct 31 09:17:17 2017 +0430
+
+    Merge pull request #11 from sadaf-netlinks/master
+    
+    Add some changes
+
+[33mcommit 49d40404cb049237128acdc11ad06fa01210ab3d[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Oct 31 09:14:34 2017 +0430
+
+    Some changes
+
+[33mcommit 86b672a3769946501cba7a0f5faeb06ace1e381e[m
+Merge: b981ec6e 5b284fcf
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Oct 31 09:09:37 2017 +0430
+
+    Merge pull request #10 from sadaf-netlinks/master
+    
+     Add some changes on design
+
+[33mcommit 5b284fcf77042cbc1c8032a09e2f963f6f73493e[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Oct 31 09:04:41 2017 +0430
+
+    Add handleError function to service
+
+[33mcommit 3a70c0c08df2a57c9f4a07423f104f4a553cc075[m
+Merge: 9221f729 b981ec6e
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Oct 31 08:51:03 2017 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-admin
+
+[33mcommit 9221f72982641b44500bda70dadb601efbafa623[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Oct 31 08:48:13 2017 +0430
+
+    Add some changes on design
+
+[33mcommit b981ec6e960f19d80a4aaecb1d4699e60566db05[m
+Merge: 54579fba 614bfd6a
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Oct 30 09:22:08 2017 +0430
+
+    Merge pull request #9 from sadaf-netlinks/master
+    
+    Add bank accounts
+
+[33mcommit 21e98e872f738a1cd0d49fb183b80776929b3f2d[m
+Merge: 82e342fa 54579fba
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Mon Oct 30 09:16:38 2017 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-admin
+
+[33mcommit 54579fba791e140fcd16a7fc4a956a1856334930[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Oct 29 19:43:23 2017 +0430
+
+    Add white-box class to user profile
+
+[33mcommit 614bfd6af395f24b72a36bde21c846500dbb421d[m
+Merge: 82e342fa 81d139f4
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Oct 29 13:49:40 2017 +0430
+
+    Merge branch 'master' into master
+
+[33mcommit 82e342fa634749d8715861cd9b7cf9deee4d1542[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Oct 29 13:45:21 2017 +0430
+
+    Add bank accounts
+
+[33mcommit 81d139f479bc0bfe086c79f88b1c2d1354eef73f[m
+Merge: f5bb61f5 f3f3c716
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Oct 28 14:02:29 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit f3f3c7165c287bbbecfa29069d688527ed84f844[m
+Merge: 48c97dc6 5eda21b3
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Oct 28 14:02:15 2017 +0430
+
+    Merge pull request #8 from sadaf-netlinks/master
+    
+    Add feedback
+
+[33mcommit f5bb61f5d14d879ed7c9f23b53913e7cc84a1fb9[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Oct 28 14:01:14 2017 +0430
+
+    Implement socket.io
+
+[33mcommit e65502e7158f7c41114b9831acc7c26d7421579d[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Oct 28 13:15:03 2017 +0430
+
+    Add company package
+
+[33mcommit 186d3509a054297578f0dc2ace9972384e88c55d[m
+Merge: 5eda21b3 48c97dc6
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Fri Oct 27 23:43:47 2017 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-admin
+
+[33mcommit 5eda21b3ae91d4b2b0bfaf085f739ed2be84f557[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Fri Oct 27 23:23:47 2017 +0430
+
+    Add feedback
+
+[33mcommit 48c97dc6a64556be15f294c138e5f05147cc5b1f[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Oct 24 14:12:05 2017 +0430
+
+    Add package views
+
+[33mcommit 2610f160a473ae3ff89792d6c26ac4874df3cabf[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Oct 24 11:17:19 2017 +0430
+
+    Fix package list issue
+
+[33mcommit 25c670a4bad5f75afbc8af6ce65d2b57edce21fa[m
+Merge: 4b716774 883d7c54
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Oct 24 09:49:35 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit 883d7c54b98d665b29fd5ba673baa8b5e098521d[m
+Merge: 773085bb 666c554d
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Oct 24 09:44:01 2017 +0430
+
+    Merge pull request #7 from sadaf-netlinks/master
+    
+    Add general search
+
+[33mcommit 4b716774f9752f463ef52f6145bc7612cdd0ec61[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Oct 24 09:26:42 2017 +0430
+
+    .gitignore is working now
+
+[33mcommit d6100450c2befe978058141790f699125189629f[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Oct 24 09:24:11 2017 +0430
+
+    Add package list
+
+[33mcommit 666c554d4ab84ca06a88ea234b080d4deb3cb60a[m
+Merge: c57b737a 773085bb
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Oct 24 09:00:45 2017 +0430
+
+    Resolve conflicts
+
+[33mcommit c57b737a754514b8f6444ef027d8bc9f418b533a[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Tue Oct 24 00:11:54 2017 +0430
+
+    Complete general search
+
+[33mcommit 773085bb56206782686d39a654c580d1a8abb75f[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Oct 23 19:14:50 2017 +0430
+
+    Add new package
+
+[33mcommit aa454da3758035eb2f68896f93a2c4890bd2b3c9[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Mon Oct 23 13:16:24 2017 +0430
+
+    Add general search in header
+
+[33mcommit 32b68899ebf863a4e6667c65afa416a5bdeb71b3[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sun Oct 22 20:50:41 2017 +0430
+
+    Add general search
+
+[33mcommit 07b464ec72ee733aa6df7830e6c706b93e675b77[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Oct 22 13:44:36 2017 +0430
+
+    Add employer company
+
+[33mcommit cdb7b4942d664b7a19f47932db6266cda94d0b73[m
+Merge: 3d43907f 5cd87328
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Oct 19 11:13:42 2017 +0430
+
+    Merge pull request #6 from sadaf-netlinks/master
+    
+    Add changes on tabs design
+
+[33mcommit 5cd8732839835a0adf55eef2d3ae8ce2f0d73cff[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Oct 19 11:09:00 2017 +0430
+
+    Add changes on tabs design
+
+[33mcommit 3d43907feff79be2d2efb8f2e7f37efd7764c852[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Oct 19 10:43:40 2017 +0430
+
+    Remove webpack-dashboard package
+
+[33mcommit 8568f7e00396a3cfe70393e71cf1fd8d1ca119bf[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Oct 19 09:54:16 2017 +0430
+
+    Fix jquery typescript loader error
+
+[33mcommit 966216230b8d6495eaaad1c28745acfa12c5a892[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Oct 19 09:50:38 2017 +0430
+
+    Fix typo error
+
+[33mcommit 124c4e90bb876365144256156a7b8aedebb49f9c[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Oct 19 09:46:10 2017 +0430
+
+    Solve typescript error
+
+[33mcommit 4e3f378ec90e04093c3a9a4ee6aa0697051b7e75[m
+Merge: e9232b36 d250985d
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Oct 19 09:21:19 2017 +0430
+
+    Merge pull request #5 from sadaf-netlinks/master
+    
+    Add some changes on approvals, reported resource and settings
+
+[33mcommit d250985dd033d82d5da54f881c9d8d47ea545ca4[m
+Merge: 1caaee8f e9232b36
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Oct 19 09:12:19 2017 +0430
+
+    Merge branch 'master' into master
+
+[33mcommit e9232b36cda4abb9f30d14cd8b15c087fb705728[m
+Merge: f404d58b 8316c9fd
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Oct 19 09:01:51 2017 +0430
+
+    Merge pull request #4 from sadaf-netlinks/master
+    
+    Add account settings
+
+[33mcommit 1caaee8f383e8a89a8b9c44fa4a7e25516fb9bb9[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Oct 19 01:41:53 2017 +0430
+
+    Solve profile status issue
+
+[33mcommit 5d4511966325ef75cbbaf9dea8f627b006a4b5f3[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Oct 19 01:06:05 2017 +0430
+
+    Bring some changes on reported resource and approvals design
+
+[33mcommit 04a9b4b2c95b7b18d38b8c8450dc50143682b7a4[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Oct 18 20:06:06 2017 +0430
+
+    Add changes on setting page
+
+[33mcommit 11b79868e4bf3d6af3d3112cc81ee982f70d55a1[m
+Merge: 8316c9fd f404d58b
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Oct 18 09:58:51 2017 +0430
+
+    Merge branch 'master' of https://github.com/NETLINKSAF/jobsaf-admin
+
+[33mcommit 8316c9fd568260f00247e30fbdba40bceaca5725[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Oct 18 09:39:50 2017 +0430
+
+    Add account settings
+
+[33mcommit f404d58b35b239b3b4257546a837e5d6a9521433[m
+Merge: 5a4f4525 c491c33a
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Oct 16 18:54:57 2017 +0430
+
+    Merge branch 'master' of github.com:NETLINKSAF/jobsaf-admin
+
+[33mcommit c491c33a24edfc887cbcf023317bbdd1abc402d9[m
+Merge: 4cc75f47 c90d84d0
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Oct 16 18:54:36 2017 +0430
+
+    Merge pull request #3 from sadaf-netlinks/master
+    
+    Add Settings general, privacy and notification sections
+
+[33mcommit 5a4f452516abab1514527d222cd4f35ac366023c[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Oct 16 18:52:09 2017 +0430
+
+    Refactor user lists code
+
+[33mcommit d3795a69cbab784555aa93a6beb7039be861ca7b[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Oct 16 18:27:08 2017 +0430
+
+    Fix ng2-bootstrap issue
+
+[33mcommit df9f1224f57bbff16944ae3027b9d9a91be071fa[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Oct 16 17:38:17 2017 +0430
+
+    Remove type error and fix add user
+
+[33mcommit c90d84d0dc9b20e5891bbca459d778c9582ec929[m
+Merge: 9209f93a 4cc75f47
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Mon Oct 16 09:16:16 2017 +0430
+
+    Merge branch 'master' into master
+
+[33mcommit 9209f93a5c597eb303520a075cc2633c2a40c92f[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Mon Oct 16 09:14:52 2017 +0430
+
+    Add Settings general, privacy and notification sections
+
+[33mcommit 4cc75f476e3d212d2f86c20a47007d78865b7598[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Oct 15 21:35:12 2017 +0430
+
+    Remove unused packages
+
+[33mcommit a8d0555ec9c352befb670129046799c4c225bd4c[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Oct 15 21:24:44 2017 +0430
+
+    fix typing error
+
+[33mcommit 9d95caba50f3735ca96dfd8f1a8ae941989a3862[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Oct 15 21:06:15 2017 +0430
+
+    Change menu active class color
+
+[33mcommit bbcf79f7b74106ffebc62c873d3efba8558cb9ec[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Oct 15 20:32:09 2017 +0430
+
+    Add user profile based on new API
+
+[33mcommit 7b2584de20776f73e807419353b324abad9c63af[m
+Merge: e5f67e69 fa851e29
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Oct 15 14:00:18 2017 +0430
+
+    Merge pull request #2 from sadaf-netlinks/master
+    
+     Add api for approvls and Add reported resources
+
+[33mcommit fa851e295421bc8250687eab49d4b73de88b0c4d[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sat Oct 14 22:32:00 2017 +0430
+
+    Remove headers from service files
+
+[33mcommit 2ef4dd19957e321da203d6cec004e0f88290f31a[m
+Merge: 9fe8db83 e5f67e69
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sat Oct 14 22:15:53 2017 +0430
+
+    Resolve conflicts
+
+[33mcommit 9fe8db8352d656f409ca0791eed852e526a98800[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sat Oct 14 22:10:18 2017 +0430
+
+    Changes on count functions
+
+[33mcommit e5f67e69717765b4eb29861c333fb021b1b67d6e[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Oct 14 21:28:58 2017 +0430
+
+    Update package.json packages
+
+[33mcommit 33833a63839e17b29c34664371ee6bdd4aacf89a[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Oct 14 20:20:16 2017 +0430
+
+    Fix user profile dropdown
+
+[33mcommit 00d0d91cfcbc127f6590476908dfc6185c946b7f[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Oct 14 19:37:23 2017 +0430
+
+    Separate admin,employer and job-seeker users
+
+[33mcommit 84d4f5ad1291cfd3eff71fed0173ca4045af8395[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Oct 14 15:40:06 2017 +0430
+
+    Remove static route from login
+
+[33mcommit 86878a83e3f75b40d22da821d7367b08b43a994b[m
+Merge: d89b01f0 60b6461d
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sat Oct 14 15:03:00 2017 +0430
+
+    Resolve Conflicts
+
+[33mcommit d89b01f0ed4e26156e68da7c12c43ce58b43f4d2[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Sat Oct 14 14:37:03 2017 +0430
+
+    Add api for approvls and Add reported resources
+
+[33mcommit 60b6461d91bb3333b35dc0c20bdb8f13f2a59e65[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Oct 12 11:21:04 2017 +0430
+
+    Enhace layout design
+
+[33mcommit a91288c981e6fd887f655c2abed04475bcc0e681[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Oct 12 09:21:25 2017 +0430
+
+    Remove username from user list
+
+[33mcommit 8a361450af83a6dabd8297d93346878f0bc6a0dd[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Thu Oct 12 09:10:33 2017 +0430
+
+    Add other reported resources
+
+[33mcommit a6adece6046444c04574535f43a3af49dfb9df59[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Wed Oct 11 18:14:45 2017 +0430
+
+    Solve typescript error
+
+[33mcommit 247752797272cbf5db203e30b10bde7fe674e821[m
+Merge: 716d99f3 4e6a8d16
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Oct 11 10:47:57 2017 +0430
+
+    Resolved conflict
+
+[33mcommit 716d99f349e44159e7272b8bfa40aa52ce02eb7a[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Wed Oct 11 10:45:35 2017 +0430
+
+    Suspend and Ignore reported user
+
+[33mcommit 4e6a8d1661b09a1790f4cf7bf817ab9b25849de2[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Oct 10 19:47:05 2017 +0430
+
+    Fix login authentication issue with jwt
+
+[33mcommit 64edb651228aaf35fabf48df2ae7f10e33da46da[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Tue Oct 10 09:25:10 2017 +0430
+
+    Update packages
+
+[33mcommit f927f64185b4bea1e3f7e6c3b3f8db253ba050e3[m
+Merge: f6a9e8ef deca31e0
+Author: Nimatullah Razmjo <razmjo@netlinks.ws>
+Date:   Mon Oct 9 10:56:39 2017 +0430
+
+    Merge pull request #1 from sadaf-netlinks/master
+    
+    Add master data approvals
+
+[33mcommit deca31e057fe0b436bf250519f0c6c11ec17f529[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Mon Oct 9 10:52:48 2017 +0430
+
+    Remove logs from components
+
+[33mcommit 7b32e36db1c205b6822909678c85afdb027fd99d[m
+Author: sadaf-netlinks <sadaf@netlinks.ws>
+Date:   Mon Oct 9 10:05:28 2017 +0430
+
+    Add master data approvals
+
+[33mcommit f6a9e8ef49ce09aa66d0317a4ad78c8e7102f106[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Oct 8 13:10:32 2017 +0430
+
+    Fix login Issue
+
+[33mcommit 8566c36ad022a66db57db6bb7deaf39f03e92407[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Oct 8 09:56:21 2017 +0430
+
+    Add user sublink to sidebar
+
+[33mcommit 108156f0c48807a7d22dc7b2aecaab249f50ff28[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sun Oct 8 08:57:04 2017 +0430
+
+    Add user list, pagination and filter
+
+[33mcommit a966627b7f08c6b254fa9980773afe896a15c88e[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Oct 7 16:31:49 2017 +0430
+
+    Add jsgrid css and js files
+
+[33mcommit 4675be6e65377394d88b59655c8bb819dca7642e[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Oct 7 16:11:24 2017 +0430
+
+    Change user list datatable
+
+[33mcommit d261287a92ec5479558c29d401a6dea47c798031[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Oct 7 13:46:08 2017 +0430
+
+    Fix skill issue
+
+[33mcommit 41c9471f980179f9a544e91c78cc1f21bdf8aa87[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Oct 7 11:18:03 2017 +0430
+
+    Fix login issue
+
+[33mcommit 808f7088c11d5155d4d57350daafc8822ff516f5[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Sat Oct 7 10:56:08 2017 +0430
+
+    Solve sdk issue
+
+[33mcommit b15caf8d274d7fd2e5da17f8f7e7092f4f83ecb6[m
+Author: Nematullah Razmjo <razmjo@netlinks.ws>
+Date:   Thu Oct 5 11:28:27 2017 +0430
+
+    Initial commit
