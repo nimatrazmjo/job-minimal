@@ -22,8 +22,6 @@ dll/
 .classpath
 .c9/
 *.launch
-**.js
-**.js.map
 .settings/
 
 # IDE - VSCode
